@@ -1,0 +1,17 @@
+var binding = oTableProgramas.getBinding("items");
+var filter = new sap.ui.model.Filter({
+    filters: [
+        new sap.ui.model.Filter("CODIGO_AGRUPACION", "Contains", this.getValue()),
+        new sap.ui.model.Filter("NOMBRE_AGRUPACION", "Contains", this.getValue()),
+        new sap.ui.model.Filter("CODIGO_PROGRAMA", "Contains", this.getValue()),
+        new sap.ui.model.Filter("NOMBRE_PROGRAMA", "Contains", this.getValue()),
+        new sap.ui.model.Filter("CODIGO_PLAN_EST", "Contains", this.getValue()),
+        new sap.ui.model.Filter("NOMBRE_PLAN_EST", "Contains", this.getValue()),
+        new sap.ui.model.Filter("MOD_PROGRAMA", "Contains", this.getValue()),
+        new sap.ui.model.Filter("DURACION_PROGRAMA", "Contains", this.getValue()),
+        new sap.ui.model.Filter("CODIGO_VARIANTE", "Contains", this.getValue()),
+        new sap.ui.model.Filter("NOMBRE_VARIANTE", "Contains", this.getValue()),
+    ],
+    and: false
+})
+binding.filter([filter]);

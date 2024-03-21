@@ -1,0 +1,3993 @@
+{
+	"id": "f41b25a4-4b19-ed11-bd6e-a085fcbc6cdc",
+	"createdAt": "2022-08-11T08:00:47.103Z",
+	"createdBy": "daniel.vieira@neptune-software.com",
+	"objects": [
+		{
+			"fieldNo": "388249da-2dab-486f-c441-bcf9d684f001",
+			"fieldName": "oShell",
+			"fieldParent": 0,
+			"fieldType": "sap.m.Shell",
+			"script": "",
+			"customComponent": false,
+			"request": [],
+			"response": [],
+			"attributes": [],
+			"data": [
+				{
+					"fieldNo": "b995496f-bc8f-459b-cf44-2753efa79163",
+					"fieldName": "oApp",
+					"fieldParent": "388249da-2dab-486f-c441-bcf9d684f001",
+					"fieldType": "sap.m.App",
+					"script": "",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": [
+						{
+							"fieldNo": "47165263-1d65-4735-b029-474ebcacbef9",
+							"fieldName": "oPage",
+							"fieldParent": "b995496f-bc8f-459b-cf44-2753efa79163",
+							"fieldType": "sap.m.Page",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "title",
+									"grouping": "Properties",
+									"value": "Reporte RUP / SAP",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": [
+								{
+									"fieldNo": "a4c4a446-363c-4e9b-9589-396ef85ef6d2",
+									"fieldName": "oSimpleForm",
+									"fieldParent": "47165263-1d65-4735-b029-474ebcacbef9",
+									"fieldType": "sap.ui.layout.form.SimpleForm",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "editable",
+											"grouping": "Properties",
+											"value": "true",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": [
+										{
+											"fieldNo": "dbe2f8de-d422-45d5-93db-b7b71a7d4435",
+											"fieldName": "oLabelPeriodicidad",
+											"fieldParent": "a4c4a446-363c-4e9b-9589-396ef85ef6d2",
+											"fieldType": "sap.m.Label",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "Periodicidad",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										},
+										{
+											"fieldNo": "a7b899d3-195b-4d4b-c0d5-82f1959407fc",
+											"fieldName": "oInput",
+											"fieldParent": "a4c4a446-363c-4e9b-9589-396ef85ef6d2",
+											"fieldType": "sap.m.Input",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "showValueHelp",
+													"grouping": "Properties",
+													"value": "true",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "valueHelpRequest",
+													"grouping": "Events",
+													"value": "Anonymous Function",
+													"script": "file://event/sap.m.Input/oInput/valueHelpRequest.js",
+													"language": "javascript",
+													"translation": []
+												}
+											],
+											"data": []
+										},
+										{
+											"fieldNo": "708cc355-9eff-46ad-b062-b90075134267",
+											"fieldName": "oLabelUnidadAcademica",
+											"fieldParent": "a4c4a446-363c-4e9b-9589-396ef85ef6d2",
+											"fieldType": "sap.m.Label",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "Unidad Académica",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										},
+										{
+											"fieldNo": "ef7e646a-e7b7-42f8-a52d-3805087b48c2",
+											"fieldName": "oInput1",
+											"fieldParent": "a4c4a446-363c-4e9b-9589-396ef85ef6d2",
+											"fieldType": "sap.m.Input",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "showValueHelp",
+													"grouping": "Properties",
+													"value": "true",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "valueHelpRequest",
+													"grouping": "Events",
+													"value": "Anonymous Function",
+													"script": "file://event/sap.m.Input/oInput1/valueHelpRequest.js",
+													"language": "javascript",
+													"translation": []
+												}
+											],
+											"data": []
+										},
+										{
+											"fieldNo": "36376796-d263-496d-ca0d-0108ef85e6b6",
+											"fieldName": "oLabelAgrupacion",
+											"fieldParent": "a4c4a446-363c-4e9b-9589-396ef85ef6d2",
+											"fieldType": "sap.m.Label",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "Agrupación",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										},
+										{
+											"fieldNo": "83f4ec19-85a7-4760-89cc-bd5cb22e67fe",
+											"fieldName": "oInput2",
+											"fieldParent": "a4c4a446-363c-4e9b-9589-396ef85ef6d2",
+											"fieldType": "sap.m.Input",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "showValueHelp",
+													"grouping": "Properties",
+													"value": "true",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "valueHelpRequest",
+													"grouping": "Events",
+													"value": "Anonymous Function",
+													"script": "file://event/sap.m.Input/oInput2/valueHelpRequest.js",
+													"language": "javascript",
+													"translation": []
+												}
+											],
+											"data": []
+										},
+										{
+											"fieldNo": "3dd72603-5ee5-421c-bec4-14d195a0b3c9",
+											"fieldName": "oLabelPrograma",
+											"fieldParent": "a4c4a446-363c-4e9b-9589-396ef85ef6d2",
+											"fieldType": "sap.m.Label",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "Programa",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										},
+										{
+											"fieldNo": "7f34b00a-0701-4277-ebfd-9c8857007bbe",
+											"fieldName": "oInput3",
+											"fieldParent": "a4c4a446-363c-4e9b-9589-396ef85ef6d2",
+											"fieldType": "sap.m.Input",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "showValueHelp",
+													"grouping": "Properties",
+													"value": "true",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "valueHelpRequest",
+													"grouping": "Events",
+													"value": "Anonymous Function",
+													"script": "file://event/sap.m.Input/oInput3/valueHelpRequest.js",
+													"language": "javascript",
+													"translation": []
+												}
+											],
+											"data": []
+										},
+										{
+											"fieldNo": "16ff4c12-2177-4f87-e8b3-26dd3a894ccb",
+											"fieldName": "oLabelDocente",
+											"fieldParent": "a4c4a446-363c-4e9b-9589-396ef85ef6d2",
+											"fieldType": "sap.m.Label",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "Docente",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										},
+										{
+											"fieldNo": "2072565f-8968-4d48-8483-81c8c94cb217",
+											"fieldName": "oInput4",
+											"fieldParent": "a4c4a446-363c-4e9b-9589-396ef85ef6d2",
+											"fieldType": "sap.m.Input",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "showValueHelp",
+													"grouping": "Properties",
+													"value": "true",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "valueHelpRequest",
+													"grouping": "Events",
+													"value": "Anonymous Function",
+													"script": "file://event/sap.m.Input/oInput4/valueHelpRequest.js",
+													"language": "javascript",
+													"translation": []
+												},
+												{
+													"attribute": "submit",
+													"grouping": "Events",
+													"value": "modeloModelObjectQuery.getData().IV_NUMERO_IDENTIFICACION = oInput4.getValue();",
+													"script": "modeloModelObjectQuery.getData().IV_NUMERO_IDENTIFICACION = oInput4.getValue();",
+													"translation": []
+												},
+												{
+													"attribute": "change",
+													"grouping": "Events",
+													"value": "modeloModelObjectQuery.getData().IV_NUMERO_IDENTIFICACION = oInput4.getValue();",
+													"script": "modeloModelObjectQuery.getData().IV_NUMERO_IDENTIFICACION = oInput4.getValue();",
+													"translation": []
+												}
+											],
+											"data": []
+										},
+										{
+											"fieldNo": "aef18d92-0f1b-4e47-f80a-88d8e144f8f6",
+											"fieldName": "oButtonBuscar",
+											"fieldParent": "a4c4a446-363c-4e9b-9589-396ef85ef6d2",
+											"fieldType": "sap.m.Button",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "Buscar",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "press",
+													"grouping": "Events",
+													"value": "Anonymous Function",
+													"script": "file://event/sap.m.Button/oButtonBuscar/press.script",
+													"translation": []
+												}
+											],
+											"data": []
+										}
+									]
+								},
+								{
+									"fieldNo": "5348d38a-2bf6-4af8-ba02-90436b22af9c",
+									"fieldName": "oVBox",
+									"fieldParent": "47165263-1d65-4735-b029-474ebcacbef9",
+									"fieldType": "sap.m.VBox",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "styleClassMargin",
+											"grouping": "Properties",
+											"value": "sapUiLargeMarginTop",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": [
+										{
+											"fieldNo": "33194993-0689-46de-8a1e-e75a7d1e63c3",
+											"fieldName": "oHBox2",
+											"fieldParent": "5348d38a-2bf6-4af8-ba02-90436b22af9c",
+											"fieldType": "sap.m.HBox",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [],
+											"data": [
+												{
+													"fieldNo": "5a766573-0f5e-4ac9-951f-1a00d6271802",
+													"fieldName": "oObjectStatusSAP",
+													"fieldParent": "33194993-0689-46de-8a1e-e75a7d1e63c3",
+													"fieldType": "sap.m.ObjectStatus",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "text",
+															"grouping": "Properties",
+															"value": "Información SAP",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "state",
+															"grouping": "Properties",
+															"value": "Success",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												},
+												{
+													"fieldNo": "04f74d1a-8c83-4cd0-8a40-e58889d88e61",
+													"fieldName": "oHBox3",
+													"fieldParent": "33194993-0689-46de-8a1e-e75a7d1e63c3",
+													"fieldType": "sap.m.HBox",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "styleClassMargin",
+															"grouping": "Properties",
+															"value": "sapUiSmallMarginBegin",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": [
+														{
+															"fieldNo": "9189c238-9c52-4aa6-9982-ea13a7d6bb59",
+															"fieldName": "oObjectStatusRUP",
+															"fieldParent": "04f74d1a-8c83-4cd0-8a40-e58889d88e61",
+															"fieldType": "sap.m.ObjectStatus",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "Información RUP",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "state",
+																	"grouping": "Properties",
+																	"value": "Error",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														}
+													]
+												}
+											]
+										},
+										{
+											"fieldNo": "5c939685-51d7-4c99-b5aa-8a0a37b677f5",
+											"fieldName": "oTableRUPSAP",
+											"fieldParent": "5348d38a-2bf6-4af8-ba02-90436b22af9c",
+											"fieldType": "sap.m.Table",
+											"script": "",
+											"customComponent": false,
+											"bindingValue": "Generic Array",
+											"bindingType": "h",
+											"bindingSource": "P9",
+											"request": [],
+											"response": [],
+											"attributes": [],
+											"data": [
+												{
+													"fieldNo": "c75d4f1e-4257-4716-f080-47eeac2a456b",
+													"fieldName": "oColumnRUPSAPNumero",
+													"fieldParent": "5c939685-51d7-4c99-b5aa-8a0a37b677f5",
+													"fieldType": "sap.m.Column",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [],
+													"data": [
+														{
+															"fieldNo": "22b35efb-6432-4d86-a0cb-b314038dac99",
+															"fieldName": "oText10",
+															"fieldParent": "c75d4f1e-4257-4716-f080-47eeac2a456b",
+															"fieldType": "sap.m.Text",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "Numero Identificacion",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														}
+													]
+												},
+												{
+													"fieldNo": "4d5a3596-c629-4919-d420-161e54bbe89c",
+													"fieldName": "oColumnRUPSAPNombres",
+													"fieldParent": "5c939685-51d7-4c99-b5aa-8a0a37b677f5",
+													"fieldType": "sap.m.Column",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [],
+													"data": [
+														{
+															"fieldNo": "37fcc193-ad7a-42ba-cfef-94224ac68d58",
+															"fieldName": "oText12",
+															"fieldParent": "4d5a3596-c629-4919-d420-161e54bbe89c",
+															"fieldType": "sap.m.Text",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "Nombres",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														}
+													]
+												},
+												{
+													"fieldNo": "3ef98c75-6b1d-44d4-d596-65ad7f7fa45e",
+													"fieldName": "oColumnRUPSAPAbrev_grupo",
+													"fieldParent": "5c939685-51d7-4c99-b5aa-8a0a37b677f5",
+													"fieldType": "sap.m.Column",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [],
+													"data": [
+														{
+															"fieldNo": "f6dd9a91-0494-4098-f652-83cca97a8385",
+															"fieldName": "oText14",
+															"fieldParent": "3ef98c75-6b1d-44d4-d596-65ad7f7fa45e",
+															"fieldType": "sap.m.Text",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "Abrev Grupo",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														}
+													]
+												},
+												{
+													"fieldNo": "fe87fd25-62d9-448b-a846-906061b5460a",
+													"fieldName": "oColumnRUPSAPANombre_Grupo",
+													"fieldParent": "5c939685-51d7-4c99-b5aa-8a0a37b677f5",
+													"fieldType": "sap.m.Column",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [],
+													"data": [
+														{
+															"fieldNo": "1d010ddd-e5c9-4218-d8b2-c0514d7fb7ce",
+															"fieldName": "oText15",
+															"fieldParent": "fe87fd25-62d9-448b-a846-906061b5460a",
+															"fieldType": "sap.m.Text",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "Nombre Grupo",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														}
+													]
+												},
+												{
+													"fieldNo": "903c123e-67a9-4875-fe6e-81a44565a2fc",
+													"fieldName": "oColumnRUPSAPAbrev_Materia",
+													"fieldParent": "5c939685-51d7-4c99-b5aa-8a0a37b677f5",
+													"fieldType": "sap.m.Column",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [],
+													"data": [
+														{
+															"fieldNo": "2306b389-fef2-4f9c-8d7e-088a7f8c091b",
+															"fieldName": "oText18",
+															"fieldParent": "903c123e-67a9-4875-fe6e-81a44565a2fc",
+															"fieldType": "sap.m.Text",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "Abrev. Materia",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														}
+													]
+												},
+												{
+													"fieldNo": "d1a9ea8a-761a-49de-8420-5b0eb08d0a6b",
+													"fieldName": "oColumnRUPSAPANombre_Materia",
+													"fieldParent": "5c939685-51d7-4c99-b5aa-8a0a37b677f5",
+													"fieldType": "sap.m.Column",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [],
+													"data": [
+														{
+															"fieldNo": "d2db984a-4e78-4912-e77d-28eb459daf0f",
+															"fieldName": "oText13",
+															"fieldParent": "d1a9ea8a-761a-49de-8420-5b0eb08d0a6b",
+															"fieldType": "sap.m.Text",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "Nombre Materia",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														}
+													]
+												},
+												{
+													"fieldNo": "2d6c3270-7f8c-4c43-f38a-5bc5a2dec52f",
+													"fieldName": "oColumnRUPSAPHoras",
+													"fieldParent": "5c939685-51d7-4c99-b5aa-8a0a37b677f5",
+													"fieldType": "sap.m.Column",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [],
+													"data": [
+														{
+															"fieldNo": "c99161a0-6387-4c53-96b2-6da53dd91b21",
+															"fieldName": "oText11",
+															"fieldParent": "2d6c3270-7f8c-4c43-f38a-5bc5a2dec52f",
+															"fieldType": "sap.m.Text",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "Horas",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														}
+													]
+												},
+												{
+													"fieldNo": "22cc0542-44a8-494e-ec73-88cd79e3e793",
+													"fieldName": "oColumnListItem1",
+													"fieldParent": "5c939685-51d7-4c99-b5aa-8a0a37b677f5",
+													"fieldType": "sap.m.ColumnListItem",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [],
+													"data": [
+														{
+															"fieldNo": "46bf5298-ae94-4731-f5c7-04ddf47c451c",
+															"fieldName": "oObjectStatusCOLORid",
+															"fieldParent": "22cc0542-44a8-494e-ec73-88cd79e3e793",
+															"fieldType": "sap.m.ObjectStatus",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "{NUMERO_IDENTIFICACION}",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "state",
+																	"grouping": "Properties",
+																	"value": "{COLOR}",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														},
+														{
+															"fieldNo": "ed7d5be9-58ab-43e5-e55c-305303fb8a15",
+															"fieldName": "oObjectStatusCOLORNombres",
+															"fieldParent": "22cc0542-44a8-494e-ec73-88cd79e3e793",
+															"fieldType": "sap.m.ObjectStatus",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "{NOMBRES}",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "state",
+																	"grouping": "Properties",
+																	"value": "{COLOR}",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														},
+														{
+															"fieldNo": "eb1482d9-9bc1-499d-be27-56bf149a2d6a",
+															"fieldName": "oObjectStatusCOLORAbrevGrupo",
+															"fieldParent": "22cc0542-44a8-494e-ec73-88cd79e3e793",
+															"fieldType": "sap.m.ObjectStatus",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "{ABREV_GRUPO}",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "state",
+																	"grouping": "Properties",
+																	"value": "{COLOR}",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														},
+														{
+															"fieldNo": "9e31b499-fa15-4ab4-e103-d8e9159cc6c9",
+															"fieldName": "oObjectStatusCOLORNombreGrupo",
+															"fieldParent": "22cc0542-44a8-494e-ec73-88cd79e3e793",
+															"fieldType": "sap.m.ObjectStatus",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "{NOMBRE_GRUPO}",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "state",
+																	"grouping": "Properties",
+																	"value": "{COLOR}",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														},
+														{
+															"fieldNo": "07fefb2f-4e5e-4099-bfc1-2d22f28dee6f",
+															"fieldName": "oObjectStatusCOLORAbrevMateria",
+															"fieldParent": "22cc0542-44a8-494e-ec73-88cd79e3e793",
+															"fieldType": "sap.m.ObjectStatus",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "{ABREV_MATERIA}",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "state",
+																	"grouping": "Properties",
+																	"value": "{COLOR}",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														},
+														{
+															"fieldNo": "52cf5e6b-d7f0-43c0-a4da-766121f89a9f",
+															"fieldName": "oObjectStatusCOLORNombreMateria",
+															"fieldParent": "22cc0542-44a8-494e-ec73-88cd79e3e793",
+															"fieldType": "sap.m.ObjectStatus",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "{NOMBRE_MATERIA}",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "state",
+																	"grouping": "Properties",
+																	"value": "{COLOR}",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														},
+														{
+															"fieldNo": "2abcc82c-f76f-4a3a-8b63-848fbb16e280",
+															"fieldName": "oObjectStatusCOLORHoras",
+															"fieldParent": "22cc0542-44a8-494e-ec73-88cd79e3e793",
+															"fieldType": "sap.m.ObjectStatus",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "{HORAS}",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "state",
+																	"grouping": "Properties",
+																	"value": "{COLOR}",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														},
+														{
+															"fieldNo": "91a0fbef-8d85-421d-be24-ba78bcebcf44",
+															"fieldName": "oFolder",
+															"fieldParent": "22cc0542-44a8-494e-ec73-88cd79e3e793",
+															"fieldType": "neptune.folder",
+															"script": "",
+															"customComponent": false,
+															"disabled": true,
+															"request": [],
+															"response": [],
+															"attributes": [],
+															"data": [
+																{
+																	"fieldNo": "a6bf75d4-2d91-42ee-b301-4b246315b840",
+																	"fieldName": "oTextNombres",
+																	"fieldParent": "91a0fbef-8d85-421d-be24-ba78bcebcf44",
+																	"fieldType": "sap.m.Text",
+																	"script": "",
+																	"customComponent": false,
+																	"disabled": true,
+																	"request": [],
+																	"response": [],
+																	"attributes": [
+																		{
+																			"attribute": "text",
+																			"grouping": "Properties",
+																			"value": "{NOMBRES}",
+																			"script": "",
+																			"translation": []
+																		}
+																	],
+																	"data": []
+																},
+																{
+																	"fieldNo": "8115c6cf-4e8d-4502-cc2a-43512ba7e69f",
+																	"fieldName": "oTextAbrevGrupo",
+																	"fieldParent": "91a0fbef-8d85-421d-be24-ba78bcebcf44",
+																	"fieldType": "sap.m.Text",
+																	"script": "",
+																	"customComponent": false,
+																	"disabled": true,
+																	"request": [],
+																	"response": [],
+																	"attributes": [
+																		{
+																			"attribute": "text",
+																			"grouping": "Properties",
+																			"value": "{ABREV_GRUPO}",
+																			"script": "",
+																			"translation": []
+																		}
+																	],
+																	"data": []
+																},
+																{
+																	"fieldNo": "543d9e7d-20f6-48c1-e915-c5cb6f8d529b",
+																	"fieldName": "oTextNombreGrupo",
+																	"fieldParent": "91a0fbef-8d85-421d-be24-ba78bcebcf44",
+																	"fieldType": "sap.m.Text",
+																	"script": "",
+																	"customComponent": false,
+																	"disabled": true,
+																	"request": [],
+																	"response": [],
+																	"attributes": [
+																		{
+																			"attribute": "text",
+																			"grouping": "Properties",
+																			"value": "{NOMBRE_GRUPO}",
+																			"script": "",
+																			"translation": []
+																		}
+																	],
+																	"data": []
+																},
+																{
+																	"fieldNo": "54ca35ed-fddc-4a05-8eed-37c2084208fc",
+																	"fieldName": "oTextAbrevMateria",
+																	"fieldParent": "91a0fbef-8d85-421d-be24-ba78bcebcf44",
+																	"fieldType": "sap.m.Text",
+																	"script": "",
+																	"customComponent": false,
+																	"disabled": true,
+																	"request": [],
+																	"response": [],
+																	"attributes": [
+																		{
+																			"attribute": "text",
+																			"grouping": "Properties",
+																			"value": "{ABREV_MATERIA}",
+																			"script": "",
+																			"translation": []
+																		}
+																	],
+																	"data": []
+																},
+																{
+																	"fieldNo": "f313abb3-6ced-4479-e931-bc83eb71d6db",
+																	"fieldName": "oTextNombreMateria",
+																	"fieldParent": "91a0fbef-8d85-421d-be24-ba78bcebcf44",
+																	"fieldType": "sap.m.Text",
+																	"script": "",
+																	"customComponent": false,
+																	"disabled": true,
+																	"request": [],
+																	"response": [],
+																	"attributes": [
+																		{
+																			"attribute": "text",
+																			"grouping": "Properties",
+																			"value": "{NOMBRE_MATERIA}",
+																			"script": "",
+																			"translation": []
+																		}
+																	],
+																	"data": []
+																}
+															]
+														}
+													]
+												}
+											]
+										},
+										{
+											"fieldNo": "106f7aa0-2968-411a-957b-7f5a571dd76c",
+											"fieldName": "oListRUPSAP",
+											"fieldParent": "5348d38a-2bf6-4af8-ba02-90436b22af9c",
+											"fieldType": "sap.m.List",
+											"script": "",
+											"customComponent": false,
+											"disabled": true,
+											"bindingValue": "Generic Array",
+											"bindingType": "h",
+											"bindingSource": "P9",
+											"request": [],
+											"response": [],
+											"attributes": [],
+											"data": [
+												{
+													"fieldNo": "b9695040-fd20-4bfb-8b1c-7ea9a62cfc98",
+													"fieldName": "oCustomListItem",
+													"fieldParent": "106f7aa0-2968-411a-957b-7f5a571dd76c",
+													"fieldType": "sap.m.CustomListItem",
+													"script": "",
+													"customComponent": false,
+													"disabled": true,
+													"request": [],
+													"response": [],
+													"attributes": [],
+													"data": [
+														{
+															"fieldNo": "831bbb0d-cb74-4939-a068-49732c7944d7",
+															"fieldName": "oObjectStatusCOLOR",
+															"fieldParent": "b9695040-fd20-4bfb-8b1c-7ea9a62cfc98",
+															"fieldType": "sap.m.ObjectStatus",
+															"script": "",
+															"customComponent": false,
+															"disabled": true,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "{NUMERO_IDENTIFICACION}",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "state",
+																	"grouping": "Properties",
+																	"value": "{COLOR}",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "text",
+																	"grouping": "Formatter",
+																	"value": "Anonymous Function",
+																	"script": "file://event/sap.m.ObjectStatus/oObjectStatusCOLOR/text.script",
+																	"translation": []
+																}
+															],
+															"data": []
+														}
+													]
+												},
+												{
+													"fieldNo": "09893653-d8d9-4f09-a004-9cc1c9215557",
+													"fieldName": "oColumnListItem",
+													"fieldParent": "106f7aa0-2968-411a-957b-7f5a571dd76c",
+													"fieldType": "sap.m.ColumnListItem",
+													"script": "",
+													"customComponent": false,
+													"disabled": true,
+													"request": [],
+													"response": [],
+													"attributes": [],
+													"data": [
+														{
+															"fieldNo": "c8023c66-ae28-42a8-e0f3-13fbccc2193c",
+															"fieldName": "oText",
+															"fieldParent": "09893653-d8d9-4f09-a004-9cc1c9215557",
+															"fieldType": "sap.m.Text",
+															"script": "",
+															"customComponent": false,
+															"disabled": true,
+															"request": [],
+															"response": [],
+															"attributes": [],
+															"data": []
+														}
+													]
+												}
+											]
+										},
+										{
+											"fieldNo": "1a194322-88c1-435d-bc50-177dcc4727c5",
+											"fieldName": "oHBox1",
+											"fieldParent": "5348d38a-2bf6-4af8-ba02-90436b22af9c",
+											"fieldType": "sap.m.HBox",
+											"script": "",
+											"customComponent": false,
+											"disabled": true,
+											"request": [],
+											"response": [],
+											"attributes": [],
+											"data": [
+												{
+													"fieldNo": "311494b2-318a-4fad-c138-3b6c555d8b04",
+													"fieldName": "oList",
+													"fieldParent": "1a194322-88c1-435d-bc50-177dcc4727c5",
+													"fieldType": "sap.m.List",
+													"script": "",
+													"customComponent": false,
+													"disabled": true,
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "headerText",
+															"grouping": "Properties",
+															"value": "Información RUP",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												},
+												{
+													"fieldNo": "7443b5a2-0787-45b7-844d-f30ad97fc778",
+													"fieldName": "oHBox",
+													"fieldParent": "1a194322-88c1-435d-bc50-177dcc4727c5",
+													"fieldType": "sap.m.HBox",
+													"script": "",
+													"customComponent": false,
+													"disabled": true,
+													"request": [],
+													"response": [],
+													"attributes": [],
+													"data": [
+														{
+															"fieldNo": "2fa3e03c-92ca-4af9-b098-eab7a413fe34",
+															"fieldName": "oList1",
+															"fieldParent": "7443b5a2-0787-45b7-844d-f30ad97fc778",
+															"fieldType": "sap.m.List",
+															"script": "",
+															"customComponent": false,
+															"disabled": true,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "headerText",
+																	"grouping": "Properties",
+																	"value": "Información SAP",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"fieldNo": 99999,
+			"data": [
+				{
+					"fieldNo": "dedaafc6-24c9-4d8d-9ef9-4c90f2c404d9",
+					"fieldName": "API",
+					"fieldParent": 99999,
+					"fieldType": "neptune.folder",
+					"script": "",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": [
+						{
+							"fieldNo": "53afb083-0709-4e82-a800-78321821af47",
+							"fieldName": "oRestAPI_ServerScriptOracle",
+							"fieldParent": "dedaafc6-24c9-4d8d-9ef9-4c90f2c404d9",
+							"fieldType": "neptune.restapi",
+							"script": "",
+							"customComponent": false,
+							"restSource": "6a5d9fcd-4c19-ed11-bd6e-a085fcbc6cdc",
+							"restOperation": "696f30f8-9d02-453b-bd7d-620f6185a12e",
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "ajaxSuccess",
+									"grouping": "Events",
+									"value": "Anonymous Function",
+									"script": "file://event/neptune.restapi/oRestAPI_ServerScriptOracle/ajaxSuccess.js",
+									"language": "javascript",
+									"translation": []
+								}
+							],
+							"data": []
+						},
+						{
+							"fieldNo": "aab2f37b-4776-4df2-818d-270406dcda5b",
+							"fieldName": "oRestAPIGetPeriodicidad",
+							"fieldParent": "dedaafc6-24c9-4d8d-9ef9-4c90f2c404d9",
+							"fieldType": "neptune.restapi",
+							"script": "",
+							"customComponent": false,
+							"restSource": "800f48b3-d976-4424-8781-f5f2294a0069",
+							"restOperation": "64392eb4-adb9-41e6-bab8-21cb18083e54",
+							"request": [],
+							"response": [
+								{
+									"status": "200",
+									"dataId": "09906ffa-a637-444a-9d09-ed255417eb87",
+									"modelFieldNo": "98b6f9c5-655b-4a8d-b0c9-8beb81d41496"
+								}
+							],
+							"attributes": [
+								{
+									"attribute": "ajaxSuccess",
+									"grouping": "Events",
+									"value": "Anonymous Function",
+									"script": "file://event/neptune.restapi/oRestAPIGetPeriodicidad/ajaxSuccess.js",
+									"language": "javascript",
+									"translation": []
+								}
+							],
+							"data": []
+						},
+						{
+							"fieldNo": "c8190c52-dc41-42ec-bb42-6ce94f737325",
+							"fieldName": "oRestAPIGetUnidadAcademica",
+							"fieldParent": "dedaafc6-24c9-4d8d-9ef9-4c90f2c404d9",
+							"fieldType": "neptune.restapi",
+							"script": "",
+							"customComponent": false,
+							"restSource": "800f48b3-d976-4424-8781-f5f2294a0069",
+							"restOperation": "c2f4b026-2d74-4612-e24b-2d277bed626b",
+							"request": [],
+							"response": [
+								{
+									"status": "200",
+									"dataId": "7c28bdca-77bf-4bfa-b376-117c189630fa",
+									"modelFieldNo": "db7688b7-de2c-40b2-a622-0948a0c36347"
+								}
+							],
+							"attributes": [
+								{
+									"attribute": "ajaxSuccess",
+									"grouping": "Events",
+									"value": "Anonymous Function",
+									"script": "file://event/neptune.restapi/oRestAPIGetUnidadAcademica/ajaxSuccess.js",
+									"language": "javascript",
+									"translation": []
+								}
+							],
+							"data": []
+						},
+						{
+							"fieldNo": "06966901-62d1-4c44-8c60-e3d46fd6460d",
+							"fieldName": "oRestAPIGetProgramas",
+							"fieldParent": "dedaafc6-24c9-4d8d-9ef9-4c90f2c404d9",
+							"fieldType": "neptune.restapi",
+							"script": "",
+							"customComponent": false,
+							"restSource": "800f48b3-d976-4424-8781-f5f2294a0069",
+							"restOperation": "f01c6f56-0501-4032-f015-aa4fd4e67bee",
+							"request": [],
+							"response": [
+								{
+									"status": "200",
+									"dataId": "b397e951-0c94-4253-b3cc-46db0af87466",
+									"modelFieldNo": "a206ccb2-68f4-4258-980f-c0175d5da9f2"
+								}
+							],
+							"attributes": [
+								{
+									"attribute": "ajaxSuccess",
+									"grouping": "Events",
+									"value": "Anonymous Function",
+									"script": "file://event/neptune.restapi/oRestAPIGetProgramas/ajaxSuccess.js",
+									"language": "javascript",
+									"translation": []
+								}
+							],
+							"data": []
+						},
+						{
+							"fieldNo": "092c923c-906c-489e-a376-0388f4d53ea3",
+							"fieldName": "oRestAPIGetEventos",
+							"fieldParent": "dedaafc6-24c9-4d8d-9ef9-4c90f2c404d9",
+							"fieldType": "neptune.restapi",
+							"script": "",
+							"customComponent": false,
+							"restSource": "800f48b3-d976-4424-8781-f5f2294a0069",
+							"restOperation": "5bf8b203-f703-4eac-d101-4607763485f3",
+							"request": [],
+							"response": [
+								{
+									"status": "200",
+									"dataId": "899f24fb-e53c-41d7-dd36-5fc1b66949ad",
+									"modelFieldNo": "5b70ea2e-050a-4441-bb1a-dde3a53528d1"
+								}
+							],
+							"attributes": [
+								{
+									"attribute": "ajaxSuccess",
+									"grouping": "Events",
+									"value": "Anonymous Function",
+									"script": "file://event/neptune.restapi/oRestAPIGetEventos/ajaxSuccess.script",
+									"translation": []
+								}
+							],
+							"data": []
+						},
+						{
+							"fieldNo": "baf4863d-c626-420c-e378-5899c9d5a286",
+							"fieldName": "oRestAPIGetDocentes",
+							"fieldParent": "dedaafc6-24c9-4d8d-9ef9-4c90f2c404d9",
+							"fieldType": "neptune.restapi",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "ajaxSuccess",
+									"grouping": "Events",
+									"value": "Anonymous Function",
+									"script": "file://event/neptune.restapi/oRestAPIGetDocentes/ajaxSuccess.js",
+									"language": "javascript",
+									"translation": []
+								}
+							],
+							"data": []
+						}
+					]
+				},
+				{
+					"fieldNo": "4156e01f-f92c-4075-a3be-427814a377fb",
+					"fieldName": "Models",
+					"fieldParent": 99999,
+					"fieldType": "neptune.folder",
+					"script": "",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": [
+						{
+							"fieldNo": "98b6f9c5-655b-4a8d-b0c9-8beb81d41496",
+							"fieldName": "oMultiModelPeriodicidad",
+							"fieldParent": "4156e01f-f92c-4075-a3be-427814a377fb",
+							"fieldType": "neptune.model",
+							"script": "",
+							"customComponent": false,
+							"bindingValue": "ZNEPT_LASALLE_SAP_API>getGetPeriodicidadResponse",
+							"bindingType": "h",
+							"bindingSource": "API",
+							"bindingParentID": "800f48b3-d976-4424-8781-f5f2294a0069",
+							"bindingPathID": "09906ffa-a637-444a-9d09-ed255417eb87",
+							"request": [],
+							"response": [],
+							"attributes": [],
+							"data": []
+						},
+						{
+							"fieldNo": "db7688b7-de2c-40b2-a622-0948a0c36347",
+							"fieldName": "oMultiModelUnidadAcademica",
+							"fieldParent": "4156e01f-f92c-4075-a3be-427814a377fb",
+							"fieldType": "neptune.model",
+							"script": "",
+							"customComponent": false,
+							"bindingValue": "ZNEPT_LASALLE_SAP_API>postGetUnidadAcademicaResponse",
+							"bindingType": "h",
+							"bindingSource": "API",
+							"bindingParentID": "800f48b3-d976-4424-8781-f5f2294a0069",
+							"bindingPathID": "7c28bdca-77bf-4bfa-b376-117c189630fa",
+							"request": [],
+							"response": [],
+							"attributes": [],
+							"data": []
+						},
+						{
+							"fieldNo": "a206ccb2-68f4-4258-980f-c0175d5da9f2",
+							"fieldName": "oMultiModelProgramas",
+							"fieldParent": "4156e01f-f92c-4075-a3be-427814a377fb",
+							"fieldType": "neptune.model",
+							"script": "",
+							"customComponent": false,
+							"bindingValue": "ZNEPT_LASALLE_SAP_API>postGetProgramasResponse",
+							"bindingType": "u",
+							"bindingSource": "API",
+							"bindingParentID": "800f48b3-d976-4424-8781-f5f2294a0069",
+							"bindingPathID": "b397e951-0c94-4253-b3cc-46db0af87466",
+							"request": [],
+							"response": [],
+							"attributes": [],
+							"data": []
+						},
+						{
+							"fieldNo": "5b70ea2e-050a-4441-bb1a-dde3a53528d1",
+							"fieldName": "oMultiModelEventos",
+							"fieldParent": "4156e01f-f92c-4075-a3be-427814a377fb",
+							"fieldType": "neptune.model",
+							"script": "",
+							"customComponent": false,
+							"bindingValue": "ZNEPT_LASALLE_SAP_API>postGetEventosResponse",
+							"bindingType": "u",
+							"bindingSource": "API",
+							"bindingParentID": "800f48b3-d976-4424-8781-f5f2294a0069",
+							"bindingPathID": "899f24fb-e53c-41d7-dd36-5fc1b66949ad",
+							"request": [],
+							"response": [],
+							"attributes": [],
+							"data": []
+						},
+						{
+							"fieldNo": "78acf2ad-8742-4aa5-df6d-0d22f243b067",
+							"fieldName": "oModelObjectQuery",
+							"fieldParent": "4156e01f-f92c-4075-a3be-427814a377fb",
+							"fieldType": "neptune.model.object",
+							"script": "",
+							"customComponent": false,
+							"bindingValue": "Generic Object",
+							"bindingType": "u",
+							"bindingSource": "P9",
+							"request": [],
+							"response": [],
+							"attributes": [],
+							"data": []
+						},
+						{
+							"fieldNo": "86895a03-d940-4a81-9bc9-a88a95c5fd6e",
+							"fieldName": "oMultiModelInteg",
+							"fieldParent": "4156e01f-f92c-4075-a3be-427814a377fb",
+							"fieldType": "neptune.model",
+							"script": "",
+							"customComponent": false,
+							"bindingValue": "Generic Array",
+							"bindingType": "h",
+							"bindingSource": "P9",
+							"request": [],
+							"response": [],
+							"attributes": [],
+							"data": []
+						},
+						{
+							"fieldNo": "1bbb3457-bb9f-4e78-f8c0-a3a3f7c7ade6",
+							"fieldName": "oMultiModelDocentes",
+							"fieldParent": "4156e01f-f92c-4075-a3be-427814a377fb",
+							"fieldType": "neptune.model",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [],
+							"data": []
+						},
+						{
+							"fieldNo": "51237ec2-4137-48e6-d3cd-325696be3960",
+							"fieldName": "oModelObjectInteg",
+							"fieldParent": "4156e01f-f92c-4075-a3be-427814a377fb",
+							"fieldType": "neptune.model.object",
+							"script": "",
+							"customComponent": false,
+							"bindingValue": "Generic Object",
+							"bindingType": "u",
+							"bindingSource": "P9",
+							"request": [],
+							"response": [],
+							"attributes": [],
+							"data": []
+						},
+						{
+							"fieldNo": "59b543ed-00b3-46a0-e039-49fa7dda45bf",
+							"fieldName": "oModelObjectInteg1",
+							"fieldParent": "4156e01f-f92c-4075-a3be-427814a377fb",
+							"fieldType": "neptune.model.object",
+							"script": "",
+							"customComponent": false,
+							"bindingValue": "Generic Object",
+							"bindingType": "u",
+							"bindingSource": "P9",
+							"request": [],
+							"response": [],
+							"attributes": [],
+							"data": []
+						},
+						{
+							"fieldNo": "d8c76c40-334f-4459-f0e8-dc2e856068d5",
+							"fieldName": "oMultiModelIntegrado",
+							"fieldParent": "4156e01f-f92c-4075-a3be-427814a377fb",
+							"fieldType": "neptune.model",
+							"script": "",
+							"customComponent": false,
+							"bindingValue": "Generic Array",
+							"bindingType": "h",
+							"bindingSource": "P9",
+							"request": [],
+							"response": [],
+							"attributes": [],
+							"data": []
+						}
+					]
+				},
+				{
+					"fieldNo": "31416640-e7e2-4f5d-9b72-541fa229405c",
+					"fieldName": "Scripts",
+					"fieldParent": 99999,
+					"fieldType": "neptune.folder",
+					"script": "",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": [
+						{
+							"fieldNo": "2f6ae250-0cfd-40f1-891c-684e1cbcb9dd",
+							"fieldName": "FunctionsVariables",
+							"fieldParent": "31416640-e7e2-4f5d-9b72-541fa229405c",
+							"fieldType": "neptune.Script",
+							"script": "file://script/neptune.Script/Scripts/FunctionsVariables.js",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [],
+							"data": []
+						}
+					]
+				},
+				{
+					"fieldNo": "664f0c53-96be-41e4-f5ba-3e3ded2df7ee",
+					"fieldName": "Dialogs",
+					"fieldParent": 99999,
+					"fieldType": "neptune.folder",
+					"script": "",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": [
+						{
+							"fieldNo": "c54349d5-a379-4126-fdfb-1917efe11e3d",
+							"fieldName": "oButtonDocentes",
+							"fieldParent": "664f0c53-96be-41e4-f5ba-3e3ded2df7ee",
+							"fieldType": "sap.m.Button",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "type",
+									"grouping": "Properties",
+									"value": "Reject",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "icon",
+									"grouping": "Properties",
+									"value": "sap-icon://sys-cancel",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "press",
+									"grouping": "Events",
+									"value": "oDialogDocentes.close();",
+									"script": "oDialogDocentes.close();",
+									"translation": []
+								}
+							],
+							"data": []
+						},
+						{
+							"fieldNo": "4a53226e-2498-4f3f-8b4d-00e617b2e7e8",
+							"fieldName": "oDialogDocentes",
+							"fieldParent": "664f0c53-96be-41e4-f5ba-3e3ded2df7ee",
+							"fieldType": "sap.m.Dialog",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "title",
+									"grouping": "Properties",
+									"value": "Docentes",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "endButton",
+									"grouping": "Associations",
+									"value": "oButtonDocentes",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": [
+								{
+									"fieldNo": "ce7fd699-4d78-4319-e811-0ac0d5a6d0e4",
+									"fieldName": "oSimpleForm4",
+									"fieldParent": "4a53226e-2498-4f3f-8b4d-00e617b2e7e8",
+									"fieldType": "sap.ui.layout.form.SimpleForm",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [],
+									"data": [
+										{
+											"fieldNo": "5413ba0f-0686-4367-9039-55df4167c2b2",
+											"fieldName": "oVBox4",
+											"fieldParent": "ce7fd699-4d78-4319-e811-0ac0d5a6d0e4",
+											"fieldType": "sap.m.VBox",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [],
+											"data": [
+												{
+													"fieldNo": "1bd9c6fb-4b0b-47cd-ced4-c80040db893a",
+													"fieldName": "oSearchFieldDocentes",
+													"fieldParent": "5413ba0f-0686-4367-9039-55df4167c2b2",
+													"fieldType": "sap.m.SearchField",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "liveChange",
+															"grouping": "Events",
+															"value": "Anonymous Function",
+															"script": "file://event/sap.m.SearchField/oSearchFieldDocentes/liveChange.script",
+															"translation": []
+														}
+													],
+													"data": []
+												},
+												{
+													"fieldNo": "240fd0ee-aa58-489d-e411-20a8bfb41d95",
+													"fieldName": "oTableDocentes",
+													"fieldParent": "5413ba0f-0686-4367-9039-55df4167c2b2",
+													"fieldType": "sap.m.Table",
+													"script": "",
+													"customComponent": false,
+													"bindingValue": "Generic Array",
+													"bindingType": "h",
+													"bindingSource": "P9",
+													"request": [],
+													"response": [],
+													"attributes": [],
+													"data": [
+														{
+															"fieldNo": "efe5c482-12e4-4da3-b751-3ade0a300672",
+															"fieldName": "coloTableNumero_Identificacion",
+															"fieldParent": "240fd0ee-aa58-489d-e411-20a8bfb41d95",
+															"fieldType": "sap.m.Column",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [],
+															"data": [
+																{
+																	"fieldNo": "8f80dea3-8dcf-451e-817a-9fdc989a29e8",
+																	"fieldName": "colHoTableNumero_Identificacion",
+																	"fieldParent": "efe5c482-12e4-4da3-b751-3ade0a300672",
+																	"fieldType": "sap.m.Text",
+																	"script": "",
+																	"customComponent": false,
+																	"request": [],
+																	"response": [],
+																	"attributes": [
+																		{
+																			"attribute": "text",
+																			"grouping": "Properties",
+																			"value": "Numero Identificacion",
+																			"script": "",
+																			"translation": []
+																		}
+																	],
+																	"data": []
+																}
+															]
+														},
+														{
+															"fieldNo": "02a4d270-1870-4d55-d90c-0fc079330944",
+															"fieldName": "coloTableNombre",
+															"fieldParent": "240fd0ee-aa58-489d-e411-20a8bfb41d95",
+															"fieldType": "sap.m.Column",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [],
+															"data": [
+																{
+																	"fieldNo": "e617aa84-df3d-4da2-dcb7-e8cc2ab72c52",
+																	"fieldName": "colHoTableNombre",
+																	"fieldParent": "02a4d270-1870-4d55-d90c-0fc079330944",
+																	"fieldType": "sap.m.Text",
+																	"script": "",
+																	"customComponent": false,
+																	"request": [],
+																	"response": [],
+																	"attributes": [
+																		{
+																			"attribute": "text",
+																			"grouping": "Properties",
+																			"value": "Nombres",
+																			"script": "",
+																			"translation": []
+																		}
+																	],
+																	"data": []
+																}
+															]
+														},
+														{
+															"fieldNo": "7cc4540c-122a-477c-8fa7-53ca1a834870",
+															"fieldName": "coloTableApellidos",
+															"fieldParent": "240fd0ee-aa58-489d-e411-20a8bfb41d95",
+															"fieldType": "sap.m.Column",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [],
+															"data": [
+																{
+																	"fieldNo": "ccf505f9-082d-477e-de8e-9c00721a8960",
+																	"fieldName": "colHoTableApellidos",
+																	"fieldParent": "7cc4540c-122a-477c-8fa7-53ca1a834870",
+																	"fieldType": "sap.m.Text",
+																	"script": "",
+																	"customComponent": false,
+																	"request": [],
+																	"response": [],
+																	"attributes": [
+																		{
+																			"attribute": "text",
+																			"grouping": "Properties",
+																			"value": "Apellidos",
+																			"script": "",
+																			"translation": []
+																		}
+																	],
+																	"data": []
+																}
+															]
+														},
+														{
+															"fieldNo": "6b2087e5-421f-45a8-d229-3646a129498c",
+															"fieldName": "coloTableCODIGO_UNIDADDocentes",
+															"fieldParent": "240fd0ee-aa58-489d-e411-20a8bfb41d95",
+															"fieldType": "sap.m.Column",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [],
+															"data": [
+																{
+																	"fieldNo": "1c30d8ca-1bcc-4bf7-b759-5fb2221f8ec5",
+																	"fieldName": "colHoTableCODIGO_UNIDAD",
+																	"fieldParent": "6b2087e5-421f-45a8-d229-3646a129498c",
+																	"fieldType": "sap.m.Text",
+																	"script": "",
+																	"customComponent": false,
+																	"request": [],
+																	"response": [],
+																	"attributes": [
+																		{
+																			"attribute": "text",
+																			"grouping": "Properties",
+																			"value": "Código Unidad",
+																			"script": "",
+																			"translation": []
+																		}
+																	],
+																	"data": []
+																}
+															]
+														},
+														{
+															"fieldNo": "d7e7ade3-2998-4a6b-a940-f25aff8e4e29",
+															"fieldName": "coloTableNOMBRE_UNIDADDocentes",
+															"fieldParent": "240fd0ee-aa58-489d-e411-20a8bfb41d95",
+															"fieldType": "sap.m.Column",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [],
+															"data": [
+																{
+																	"fieldNo": "ddd783a7-7564-43c9-ffc9-a33fa6eefe70",
+																	"fieldName": "colHoTableNOMBRE_UNIDAD",
+																	"fieldParent": "d7e7ade3-2998-4a6b-a940-f25aff8e4e29",
+																	"fieldType": "sap.m.Text",
+																	"script": "",
+																	"customComponent": false,
+																	"request": [],
+																	"response": [],
+																	"attributes": [
+																		{
+																			"attribute": "text",
+																			"grouping": "Properties",
+																			"value": "Nombre Unidad",
+																			"script": "",
+																			"translation": []
+																		}
+																	],
+																	"data": []
+																}
+															]
+														},
+														{
+															"fieldNo": "35761540-933a-4d74-8c07-8d08064f07ce",
+															"fieldName": "coloTableCODIGO_FACULTADDocentes",
+															"fieldParent": "240fd0ee-aa58-489d-e411-20a8bfb41d95",
+															"fieldType": "sap.m.Column",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [],
+															"data": [
+																{
+																	"fieldNo": "2f1c3f31-a29d-4fb4-d449-60505b64d1b3",
+																	"fieldName": "colHoTableCODIGO_FACULTAD",
+																	"fieldParent": "35761540-933a-4d74-8c07-8d08064f07ce",
+																	"fieldType": "sap.m.Text",
+																	"script": "",
+																	"customComponent": false,
+																	"request": [],
+																	"response": [],
+																	"attributes": [
+																		{
+																			"attribute": "text",
+																			"grouping": "Properties",
+																			"value": "Código Facultad",
+																			"script": "",
+																			"translation": []
+																		}
+																	],
+																	"data": []
+																}
+															]
+														},
+														{
+															"fieldNo": "26ad9a91-f769-47b8-8d26-2a905c12bd70",
+															"fieldName": "coloTableNOMBRE_FACULTADDocentes",
+															"fieldParent": "240fd0ee-aa58-489d-e411-20a8bfb41d95",
+															"fieldType": "sap.m.Column",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [],
+															"data": [
+																{
+																	"fieldNo": "45ce4b64-165e-4a90-deba-c694c6a302e2",
+																	"fieldName": "colHoTableNOMBRE_FACULTAD",
+																	"fieldParent": "26ad9a91-f769-47b8-8d26-2a905c12bd70",
+																	"fieldType": "sap.m.Text",
+																	"script": "",
+																	"customComponent": false,
+																	"request": [],
+																	"response": [],
+																	"attributes": [
+																		{
+																			"attribute": "text",
+																			"grouping": "Properties",
+																			"value": "Nombre Facultad",
+																			"script": "",
+																			"translation": []
+																		}
+																	],
+																	"data": []
+																}
+															]
+														},
+														{
+															"fieldNo": "217f9d65-bac2-43af-cb0b-d8e630eac284",
+															"fieldName": "coloTableCODIGO_PROGRAMADocentes",
+															"fieldParent": "240fd0ee-aa58-489d-e411-20a8bfb41d95",
+															"fieldType": "sap.m.Column",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [],
+															"data": [
+																{
+																	"fieldNo": "1b7daf01-dcfd-485b-dde9-b8c185ec7c6a",
+																	"fieldName": "colHoTableCODIGO_PROGRAMADocentes",
+																	"fieldParent": "217f9d65-bac2-43af-cb0b-d8e630eac284",
+																	"fieldType": "sap.m.Text",
+																	"script": "",
+																	"customComponent": false,
+																	"request": [],
+																	"response": [],
+																	"attributes": [
+																		{
+																			"attribute": "text",
+																			"grouping": "Properties",
+																			"value": "Código Programa",
+																			"script": "",
+																			"translation": []
+																		}
+																	],
+																	"data": []
+																}
+															]
+														},
+														{
+															"fieldNo": "7d23adc8-d440-4a42-bedc-98fae440637c",
+															"fieldName": "coloTableNOMBRE_PROGRAMADocentes",
+															"fieldParent": "240fd0ee-aa58-489d-e411-20a8bfb41d95",
+															"fieldType": "sap.m.Column",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [],
+															"data": [
+																{
+																	"fieldNo": "764f604f-a0b6-4eca-83cf-e699e163b60b",
+																	"fieldName": "colHoTableNOMBRE_PROGRAMADocentes",
+																	"fieldParent": "7d23adc8-d440-4a42-bedc-98fae440637c",
+																	"fieldType": "sap.m.Text",
+																	"script": "",
+																	"customComponent": false,
+																	"request": [],
+																	"response": [],
+																	"attributes": [
+																		{
+																			"attribute": "text",
+																			"grouping": "Properties",
+																			"value": "Nombre Programa",
+																			"script": "",
+																			"translation": []
+																		}
+																	],
+																	"data": []
+																}
+															]
+														},
+														{
+															"fieldNo": "e4638218-304d-4d47-d079-51bc347a8565",
+															"fieldName": "oColumnListItemDocentes",
+															"fieldParent": "240fd0ee-aa58-489d-e411-20a8bfb41d95",
+															"fieldType": "sap.m.ColumnListItem",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "type",
+																	"grouping": "Properties",
+																	"value": "Active",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "press",
+																	"grouping": "Events",
+																	"value": "Anonymous Function",
+																	"script": "file://event/sap.m.ColumnListItem/oColumnListItemDocentes/press.js",
+																	"language": "javascript",
+																	"translation": []
+																}
+															],
+															"data": [
+																{
+																	"fieldNo": "f40e1004-050b-4374-9155-5f9130cef143",
+																	"fieldName": "oText1",
+																	"fieldParent": "e4638218-304d-4d47-d079-51bc347a8565",
+																	"fieldType": "sap.m.Text",
+																	"script": "",
+																	"customComponent": false,
+																	"request": [],
+																	"response": [],
+																	"attributes": [
+																		{
+																			"attribute": "text",
+																			"grouping": "Properties",
+																			"value": "{NUMERO_IDENTIFICACION}",
+																			"script": "",
+																			"translation": []
+																		}
+																	],
+																	"data": []
+																},
+																{
+																	"fieldNo": "fe77dde6-3baa-4b9d-d01c-402e8847c357",
+																	"fieldName": "oText2",
+																	"fieldParent": "e4638218-304d-4d47-d079-51bc347a8565",
+																	"fieldType": "sap.m.Text",
+																	"script": "",
+																	"customComponent": false,
+																	"request": [],
+																	"response": [],
+																	"attributes": [
+																		{
+																			"attribute": "text",
+																			"grouping": "Properties",
+																			"value": "{NOMBRES}",
+																			"script": "",
+																			"translation": []
+																		}
+																	],
+																	"data": []
+																},
+																{
+																	"fieldNo": "a857e630-f274-466f-cdd1-f473c98cb987",
+																	"fieldName": "oText3",
+																	"fieldParent": "e4638218-304d-4d47-d079-51bc347a8565",
+																	"fieldType": "sap.m.Text",
+																	"script": "",
+																	"customComponent": false,
+																	"request": [],
+																	"response": [],
+																	"attributes": [
+																		{
+																			"attribute": "text",
+																			"grouping": "Properties",
+																			"value": "{APELLIDOS}",
+																			"script": "",
+																			"translation": []
+																		}
+																	],
+																	"data": []
+																},
+																{
+																	"fieldNo": "6e0a1c81-c27d-4091-a853-20ea4c02f35e",
+																	"fieldName": "oText4",
+																	"fieldParent": "e4638218-304d-4d47-d079-51bc347a8565",
+																	"fieldType": "sap.m.Text",
+																	"script": "",
+																	"customComponent": false,
+																	"request": [],
+																	"response": [],
+																	"attributes": [
+																		{
+																			"attribute": "text",
+																			"grouping": "Properties",
+																			"value": "{CODIGO_UNIDAD}",
+																			"script": "",
+																			"translation": []
+																		}
+																	],
+																	"data": []
+																},
+																{
+																	"fieldNo": "839b79df-21c2-4cfe-9c6d-3ace4453d49e",
+																	"fieldName": "oText5",
+																	"fieldParent": "e4638218-304d-4d47-d079-51bc347a8565",
+																	"fieldType": "sap.m.Text",
+																	"script": "",
+																	"customComponent": false,
+																	"request": [],
+																	"response": [],
+																	"attributes": [
+																		{
+																			"attribute": "text",
+																			"grouping": "Properties",
+																			"value": "{NOMBRE_UNIDAD}",
+																			"script": "",
+																			"translation": []
+																		}
+																	],
+																	"data": []
+																},
+																{
+																	"fieldNo": "37bf5c2d-7126-4fd3-93b6-63e6fb9c0f18",
+																	"fieldName": "oText6",
+																	"fieldParent": "e4638218-304d-4d47-d079-51bc347a8565",
+																	"fieldType": "sap.m.Text",
+																	"script": "",
+																	"customComponent": false,
+																	"request": [],
+																	"response": [],
+																	"attributes": [
+																		{
+																			"attribute": "text",
+																			"grouping": "Properties",
+																			"value": "{CODIGO_FACULTAD}",
+																			"script": "",
+																			"translation": []
+																		}
+																	],
+																	"data": []
+																},
+																{
+																	"fieldNo": "7b2c02da-c186-4d0f-8642-41ca7913ff3f",
+																	"fieldName": "oText7",
+																	"fieldParent": "e4638218-304d-4d47-d079-51bc347a8565",
+																	"fieldType": "sap.m.Text",
+																	"script": "",
+																	"customComponent": false,
+																	"request": [],
+																	"response": [],
+																	"attributes": [
+																		{
+																			"attribute": "text",
+																			"grouping": "Properties",
+																			"value": "{NOMBRE_FACULTAD}",
+																			"script": "",
+																			"translation": []
+																		}
+																	],
+																	"data": []
+																},
+																{
+																	"fieldNo": "d24c6465-e590-4229-b4cb-cc278e99c203",
+																	"fieldName": "oText8",
+																	"fieldParent": "e4638218-304d-4d47-d079-51bc347a8565",
+																	"fieldType": "sap.m.Text",
+																	"script": "",
+																	"customComponent": false,
+																	"request": [],
+																	"response": [],
+																	"attributes": [
+																		{
+																			"attribute": "text",
+																			"grouping": "Properties",
+																			"value": "{CODIGO_PROGRAMA}",
+																			"script": "",
+																			"translation": []
+																		}
+																	],
+																	"data": []
+																},
+																{
+																	"fieldNo": "7c58955f-b01c-4223-d17d-300b686e4314",
+																	"fieldName": "oText9",
+																	"fieldParent": "e4638218-304d-4d47-d079-51bc347a8565",
+																	"fieldType": "sap.m.Text",
+																	"script": "",
+																	"customComponent": false,
+																	"request": [],
+																	"response": [],
+																	"attributes": [
+																		{
+																			"attribute": "text",
+																			"grouping": "Properties",
+																			"value": "{NOMBRE_PROGRAMA}",
+																			"script": "",
+																			"translation": []
+																		}
+																	],
+																	"data": []
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"fieldNo": "bcf6b5a5-f680-452b-ffa3-66b7df0648ac",
+							"fieldName": "oButtonProgramasClose",
+							"fieldParent": "664f0c53-96be-41e4-f5ba-3e3ded2df7ee",
+							"fieldType": "sap.m.Button",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "type",
+									"grouping": "Properties",
+									"value": "Reject",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "icon",
+									"grouping": "Properties",
+									"value": "sap-icon://sys-cancel",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "press",
+									"grouping": "Events",
+									"value": "oDialogProgramas.close();",
+									"script": "oDialogProgramas.close();",
+									"translation": []
+								}
+							],
+							"data": []
+						},
+						{
+							"fieldNo": "0749875d-0f20-4d65-ef2d-f04b6f9f3f73",
+							"fieldName": "oDialogProgramas",
+							"fieldParent": "664f0c53-96be-41e4-f5ba-3e3ded2df7ee",
+							"fieldType": "sap.m.Dialog",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "title",
+									"grouping": "Properties",
+									"value": "Programas",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "endButton",
+									"grouping": "Associations",
+									"value": "oButtonProgramasClose",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": [
+								{
+									"fieldNo": "63ffc57c-36ae-4d5b-8d95-ddaf07c2dce8",
+									"fieldName": "oSimpleForm2",
+									"fieldParent": "0749875d-0f20-4d65-ef2d-f04b6f9f3f73",
+									"fieldType": "sap.ui.layout.form.SimpleForm",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [],
+									"data": [
+										{
+											"fieldNo": "7d8b5afb-d11b-4ca3-e028-88dcc57b9f8b",
+											"fieldName": "oVBox2",
+											"fieldParent": "63ffc57c-36ae-4d5b-8d95-ddaf07c2dce8",
+											"fieldType": "sap.m.VBox",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [],
+											"data": [
+												{
+													"fieldNo": "630a2f9f-aaca-4f88-e1f7-af049a5f5d11",
+													"fieldName": "oSearchFieldProgramas",
+													"fieldParent": "7d8b5afb-d11b-4ca3-e028-88dcc57b9f8b",
+													"fieldType": "sap.m.SearchField",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "liveChange",
+															"grouping": "Events",
+															"value": "Anonymous Function",
+															"script": "file://event/sap.m.SearchField/oSearchFieldProgramas/liveChange.script",
+															"translation": []
+														}
+													],
+													"data": []
+												},
+												{
+													"fieldNo": "a25d2504-a0dc-441d-ca50-864cfb13e475",
+													"fieldName": "oTableProgramas",
+													"fieldParent": "7d8b5afb-d11b-4ca3-e028-88dcc57b9f8b",
+													"fieldType": "sap.m.Table",
+													"script": "",
+													"customComponent": false,
+													"bindingValue": "Generic Array",
+													"bindingType": "h",
+													"bindingSource": "P9",
+													"request": [],
+													"response": [],
+													"attributes": [],
+													"data": [
+														{
+															"fieldNo": "f6e9c3dd-54f9-4b0d-8deb-a218aae3d6c4",
+															"fieldName": "coloTableCODIGO_AGRUPACION",
+															"fieldParent": "a25d2504-a0dc-441d-ca50-864cfb13e475",
+															"fieldType": "sap.m.Column",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [],
+															"data": [
+																{
+																	"fieldNo": "24f2e834-b3f8-49da-cc55-d0029155670c",
+																	"fieldName": "colHoTableCODIGO_AGRUPACION",
+																	"fieldParent": "f6e9c3dd-54f9-4b0d-8deb-a218aae3d6c4",
+																	"fieldType": "sap.m.Text",
+																	"script": "",
+																	"customComponent": false,
+																	"request": [],
+																	"response": [],
+																	"attributes": [
+																		{
+																			"attribute": "text",
+																			"grouping": "Properties",
+																			"value": "ID Agrupacion",
+																			"script": "",
+																			"translation": []
+																		}
+																	],
+																	"data": []
+																}
+															]
+														},
+														{
+															"fieldNo": "298dfb60-db51-497a-e938-cffda3d563c9",
+															"fieldName": "coloTableNOMBRE_AGRUPACION",
+															"fieldParent": "a25d2504-a0dc-441d-ca50-864cfb13e475",
+															"fieldType": "sap.m.Column",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [],
+															"data": [
+																{
+																	"fieldNo": "ec0da794-6f75-4b2d-cf88-e1d9e6bd659f",
+																	"fieldName": "colHoTableNOMBRE_AGRUPACION",
+																	"fieldParent": "298dfb60-db51-497a-e938-cffda3d563c9",
+																	"fieldType": "sap.m.Text",
+																	"script": "",
+																	"customComponent": false,
+																	"request": [],
+																	"response": [],
+																	"attributes": [
+																		{
+																			"attribute": "text",
+																			"grouping": "Properties",
+																			"value": "Descripción Agrupacion",
+																			"script": "",
+																			"translation": []
+																		}
+																	],
+																	"data": []
+																}
+															]
+														},
+														{
+															"fieldNo": "b3853654-19fe-40fe-8b40-be69d2ea4ce6",
+															"fieldName": "coloTableCODIGO_PROGRAMA",
+															"fieldParent": "a25d2504-a0dc-441d-ca50-864cfb13e475",
+															"fieldType": "sap.m.Column",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [],
+															"data": [
+																{
+																	"fieldNo": "381742a6-aee6-4d1e-b1b9-782cc9174d6d",
+																	"fieldName": "colHoTableCODIGO_PROGRAMA",
+																	"fieldParent": "b3853654-19fe-40fe-8b40-be69d2ea4ce6",
+																	"fieldType": "sap.m.Text",
+																	"script": "",
+																	"customComponent": false,
+																	"request": [],
+																	"response": [],
+																	"attributes": [
+																		{
+																			"attribute": "text",
+																			"grouping": "Properties",
+																			"value": "ID Programa",
+																			"script": "",
+																			"translation": []
+																		}
+																	],
+																	"data": []
+																}
+															]
+														},
+														{
+															"fieldNo": "74fff36b-3f3d-4bd2-f527-52da6378a0a0",
+															"fieldName": "coloTableNOMBRE_PROGRAMA",
+															"fieldParent": "a25d2504-a0dc-441d-ca50-864cfb13e475",
+															"fieldType": "sap.m.Column",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [],
+															"data": [
+																{
+																	"fieldNo": "365d7918-8dfe-4a6d-ed15-f587ab29f96b",
+																	"fieldName": "colHoTableNOMBRE_PROGRAMA",
+																	"fieldParent": "74fff36b-3f3d-4bd2-f527-52da6378a0a0",
+																	"fieldType": "sap.m.Text",
+																	"script": "",
+																	"customComponent": false,
+																	"request": [],
+																	"response": [],
+																	"attributes": [
+																		{
+																			"attribute": "text",
+																			"grouping": "Properties",
+																			"value": "Descripción Programa",
+																			"script": "",
+																			"translation": []
+																		}
+																	],
+																	"data": []
+																}
+															]
+														},
+														{
+															"fieldNo": "7d8ee4cf-e2fe-4fa7-8b86-36cc7e981811",
+															"fieldName": "coloTableCODIGO_PLAN_EST",
+															"fieldParent": "a25d2504-a0dc-441d-ca50-864cfb13e475",
+															"fieldType": "sap.m.Column",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [],
+															"data": [
+																{
+																	"fieldNo": "511b7536-1072-4e39-eceb-a2bb85e1542a",
+																	"fieldName": "colHoTableCODIGO_PLAN_EST",
+																	"fieldParent": "7d8ee4cf-e2fe-4fa7-8b86-36cc7e981811",
+																	"fieldType": "sap.m.Text",
+																	"script": "",
+																	"customComponent": false,
+																	"request": [],
+																	"response": [],
+																	"attributes": [
+																		{
+																			"attribute": "text",
+																			"grouping": "Properties",
+																			"value": "ID Plan Est",
+																			"script": "",
+																			"translation": []
+																		}
+																	],
+																	"data": []
+																}
+															]
+														},
+														{
+															"fieldNo": "aa4d10b5-46ac-4313-a6e6-f4786eb86a0d",
+															"fieldName": "coloTableNOMBRE_PLAN_EST",
+															"fieldParent": "a25d2504-a0dc-441d-ca50-864cfb13e475",
+															"fieldType": "sap.m.Column",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [],
+															"data": [
+																{
+																	"fieldNo": "4853d361-bfda-420c-96df-b868884e386e",
+																	"fieldName": "colHoTableNOMBRE_PLAN_EST",
+																	"fieldParent": "aa4d10b5-46ac-4313-a6e6-f4786eb86a0d",
+																	"fieldType": "sap.m.Text",
+																	"script": "",
+																	"customComponent": false,
+																	"request": [],
+																	"response": [],
+																	"attributes": [
+																		{
+																			"attribute": "text",
+																			"grouping": "Properties",
+																			"value": "Descripción Plan Est",
+																			"script": "",
+																			"translation": []
+																		}
+																	],
+																	"data": []
+																}
+															]
+														},
+														{
+															"fieldNo": "581c8c22-477f-48dd-b746-b447d7651aa7",
+															"fieldName": "coloTableMOD_PROGRAMA",
+															"fieldParent": "a25d2504-a0dc-441d-ca50-864cfb13e475",
+															"fieldType": "sap.m.Column",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [],
+															"data": [
+																{
+																	"fieldNo": "b0f98e51-c9e0-4557-e3d4-b1ff077b3b9e",
+																	"fieldName": "colHoTableMOD_PROGRAMA",
+																	"fieldParent": "581c8c22-477f-48dd-b746-b447d7651aa7",
+																	"fieldType": "sap.m.Text",
+																	"script": "",
+																	"customComponent": false,
+																	"request": [],
+																	"response": [],
+																	"attributes": [
+																		{
+																			"attribute": "text",
+																			"grouping": "Properties",
+																			"value": "Tipo  Programa",
+																			"script": "",
+																			"translation": []
+																		}
+																	],
+																	"data": []
+																}
+															]
+														},
+														{
+															"fieldNo": "2acb1f37-4fee-4152-f7e7-cad5478633d0",
+															"fieldName": "coloTableDURACION_PROGRAMA",
+															"fieldParent": "a25d2504-a0dc-441d-ca50-864cfb13e475",
+															"fieldType": "sap.m.Column",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [],
+															"data": [
+																{
+																	"fieldNo": "0d28c4f8-452c-485f-f2cf-9eacd98742ed",
+																	"fieldName": "colHoTableDURACION_PROGRAMA",
+																	"fieldParent": "2acb1f37-4fee-4152-f7e7-cad5478633d0",
+																	"fieldType": "sap.m.Text",
+																	"script": "",
+																	"customComponent": false,
+																	"request": [],
+																	"response": [],
+																	"attributes": [
+																		{
+																			"attribute": "text",
+																			"grouping": "Properties",
+																			"value": "Duración Programa",
+																			"script": "",
+																			"translation": []
+																		}
+																	],
+																	"data": []
+																}
+															]
+														},
+														{
+															"fieldNo": "2c3e0732-b5ae-45ba-ce35-ba653ace8fe7",
+															"fieldName": "coloTableCODIGO_VARIANTE",
+															"fieldParent": "a25d2504-a0dc-441d-ca50-864cfb13e475",
+															"fieldType": "sap.m.Column",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [],
+															"data": [
+																{
+																	"fieldNo": "6607d7c7-8277-4860-d452-35e355b5c22e",
+																	"fieldName": "colHoTableCODIGO_VARIANTE",
+																	"fieldParent": "2c3e0732-b5ae-45ba-ce35-ba653ace8fe7",
+																	"fieldType": "sap.m.Text",
+																	"script": "",
+																	"customComponent": false,
+																	"request": [],
+																	"response": [],
+																	"attributes": [
+																		{
+																			"attribute": "text",
+																			"grouping": "Properties",
+																			"value": "Variante Período",
+																			"script": "",
+																			"translation": []
+																		}
+																	],
+																	"data": []
+																}
+															]
+														},
+														{
+															"fieldNo": "f6bd055d-50a3-4787-8430-74d37a22dd1a",
+															"fieldName": "coloTableNOMBRE_VARIANTE",
+															"fieldParent": "a25d2504-a0dc-441d-ca50-864cfb13e475",
+															"fieldType": "sap.m.Column",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [],
+															"data": [
+																{
+																	"fieldNo": "6ff4c3e7-01fa-4d98-9bd5-93f1fb30a27c",
+																	"fieldName": "colHoTableNOMBRE_VARIANTE",
+																	"fieldParent": "f6bd055d-50a3-4787-8430-74d37a22dd1a",
+																	"fieldType": "sap.m.Text",
+																	"script": "",
+																	"customComponent": false,
+																	"request": [],
+																	"response": [],
+																	"attributes": [
+																		{
+																			"attribute": "text",
+																			"grouping": "Properties",
+																			"value": "Variante de Período (Denominación)",
+																			"script": "",
+																			"translation": []
+																		}
+																	],
+																	"data": []
+																}
+															]
+														},
+														{
+															"fieldNo": "d2537012-6522-4e8a-882e-21042391d1c2",
+															"fieldName": "colItemoTableProgramas",
+															"fieldParent": "a25d2504-a0dc-441d-ca50-864cfb13e475",
+															"fieldType": "sap.m.ColumnListItem",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "type",
+																	"grouping": "Properties",
+																	"value": "Active",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "press",
+																	"grouping": "Events",
+																	"value": "Anonymous Function",
+																	"script": "file://event/sap.m.ColumnListItem/colItemoTableProgramas/press.js",
+																	"language": "javascript",
+																	"translation": []
+																}
+															],
+															"data": [
+																{
+																	"fieldNo": "d685b302-d1eb-4492-8a9e-aeb086790773",
+																	"fieldName": "txtoTableCODIGO_AGRUPACION",
+																	"fieldParent": "d2537012-6522-4e8a-882e-21042391d1c2",
+																	"fieldType": "sap.m.Text",
+																	"script": "",
+																	"customComponent": false,
+																	"request": [],
+																	"response": [],
+																	"attributes": [
+																		{
+																			"attribute": "text",
+																			"grouping": "Properties",
+																			"value": "{CODIGO_AGRUPACION}",
+																			"script": "",
+																			"translation": []
+																		}
+																	],
+																	"data": []
+																},
+																{
+																	"fieldNo": "d5b96230-add9-4802-c29f-44d385f285e0",
+																	"fieldName": "txtoTableNOMBRE_AGRUPACION",
+																	"fieldParent": "d2537012-6522-4e8a-882e-21042391d1c2",
+																	"fieldType": "sap.m.Text",
+																	"script": "",
+																	"customComponent": false,
+																	"request": [],
+																	"response": [],
+																	"attributes": [
+																		{
+																			"attribute": "text",
+																			"grouping": "Properties",
+																			"value": "{NOMBRE_AGRUPACION}",
+																			"script": "",
+																			"translation": []
+																		}
+																	],
+																	"data": []
+																},
+																{
+																	"fieldNo": "9252e09e-8188-49d0-dc0a-82c0c1ec3aec",
+																	"fieldName": "txtoTableCODIGO_PROGRAMA",
+																	"fieldParent": "d2537012-6522-4e8a-882e-21042391d1c2",
+																	"fieldType": "sap.m.Text",
+																	"script": "",
+																	"customComponent": false,
+																	"request": [],
+																	"response": [],
+																	"attributes": [
+																		{
+																			"attribute": "text",
+																			"grouping": "Properties",
+																			"value": "{CODIGO_PROGRAMA}",
+																			"script": "",
+																			"translation": []
+																		}
+																	],
+																	"data": []
+																},
+																{
+																	"fieldNo": "9edbfadc-c68b-414e-8b3c-91902368df12",
+																	"fieldName": "txtoTableNOMBRE_PROGRAMA",
+																	"fieldParent": "d2537012-6522-4e8a-882e-21042391d1c2",
+																	"fieldType": "sap.m.Text",
+																	"script": "",
+																	"customComponent": false,
+																	"request": [],
+																	"response": [],
+																	"attributes": [
+																		{
+																			"attribute": "text",
+																			"grouping": "Properties",
+																			"value": "{NOMBRE_PROGRAMA}",
+																			"script": "",
+																			"translation": []
+																		}
+																	],
+																	"data": []
+																},
+																{
+																	"fieldNo": "bca56ae5-313a-4c20-c608-947387277150",
+																	"fieldName": "txtoTableCODIGO_PLAN_EST",
+																	"fieldParent": "d2537012-6522-4e8a-882e-21042391d1c2",
+																	"fieldType": "sap.m.Text",
+																	"script": "",
+																	"customComponent": false,
+																	"request": [],
+																	"response": [],
+																	"attributes": [
+																		{
+																			"attribute": "text",
+																			"grouping": "Properties",
+																			"value": "{CODIGO_PLAN_EST}",
+																			"script": "",
+																			"translation": []
+																		}
+																	],
+																	"data": []
+																},
+																{
+																	"fieldNo": "714e57d8-18b2-465e-b371-481427e99a1e",
+																	"fieldName": "txtoTableNOMBRE_PLAN_EST",
+																	"fieldParent": "d2537012-6522-4e8a-882e-21042391d1c2",
+																	"fieldType": "sap.m.Text",
+																	"script": "",
+																	"customComponent": false,
+																	"request": [],
+																	"response": [],
+																	"attributes": [
+																		{
+																			"attribute": "text",
+																			"grouping": "Properties",
+																			"value": "{NOMBRE_PLAN_EST}",
+																			"script": "",
+																			"translation": []
+																		}
+																	],
+																	"data": []
+																},
+																{
+																	"fieldNo": "90a26012-dd0c-42d8-daef-0491da034250",
+																	"fieldName": "txtoTableMOD_PROGRAMA",
+																	"fieldParent": "d2537012-6522-4e8a-882e-21042391d1c2",
+																	"fieldType": "sap.m.Text",
+																	"script": "",
+																	"customComponent": false,
+																	"request": [],
+																	"response": [],
+																	"attributes": [
+																		{
+																			"attribute": "text",
+																			"grouping": "Properties",
+																			"value": "{MOD_PROGRAMA}",
+																			"script": "",
+																			"translation": []
+																		}
+																	],
+																	"data": []
+																},
+																{
+																	"fieldNo": "18b5599f-cbca-4ecf-80da-98a8c43eed9a",
+																	"fieldName": "txtoTableDURACION_PROGRAMA",
+																	"fieldParent": "d2537012-6522-4e8a-882e-21042391d1c2",
+																	"fieldType": "sap.m.Text",
+																	"script": "",
+																	"customComponent": false,
+																	"request": [],
+																	"response": [],
+																	"attributes": [
+																		{
+																			"attribute": "text",
+																			"grouping": "Properties",
+																			"value": "{DURACION_PROGRAMA}",
+																			"script": "",
+																			"translation": []
+																		}
+																	],
+																	"data": []
+																},
+																{
+																	"fieldNo": "4093cb07-9254-45aa-b678-0294723af75e",
+																	"fieldName": "txtoTableCODIGO_VARIANTE",
+																	"fieldParent": "d2537012-6522-4e8a-882e-21042391d1c2",
+																	"fieldType": "sap.m.Text",
+																	"script": "",
+																	"customComponent": false,
+																	"request": [],
+																	"response": [],
+																	"attributes": [
+																		{
+																			"attribute": "text",
+																			"grouping": "Properties",
+																			"value": "{CODIGO_VARIANTE}",
+																			"script": "",
+																			"translation": []
+																		}
+																	],
+																	"data": []
+																},
+																{
+																	"fieldNo": "f902e438-aaf6-43a3-82ff-ad6fa64b44bb",
+																	"fieldName": "txtoTableNOMBRE_VARIANTE",
+																	"fieldParent": "d2537012-6522-4e8a-882e-21042391d1c2",
+																	"fieldType": "sap.m.Text",
+																	"script": "",
+																	"customComponent": false,
+																	"request": [],
+																	"response": [],
+																	"attributes": [
+																		{
+																			"attribute": "text",
+																			"grouping": "Properties",
+																			"value": "{NOMBRE_VARIANTE}",
+																			"script": "",
+																			"translation": []
+																		}
+																	],
+																	"data": []
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"fieldNo": "b6fe8515-210d-4268-f949-d15b66cc8188",
+							"fieldName": "oButtonUnidadAcademicaClose",
+							"fieldParent": "664f0c53-96be-41e4-f5ba-3e3ded2df7ee",
+							"fieldType": "sap.m.Button",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "type",
+									"grouping": "Properties",
+									"value": "Reject",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "icon",
+									"grouping": "Properties",
+									"value": "sap-icon://sys-cancel",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "press",
+									"grouping": "Events",
+									"value": "oDialogUnidadAcademica.close();",
+									"script": "oDialogUnidadAcademica.close();",
+									"translation": []
+								}
+							],
+							"data": []
+						},
+						{
+							"fieldNo": "b092eaac-3502-4cc8-f309-368bec22a48f",
+							"fieldName": "oDialogUnidadAcademica",
+							"fieldParent": "664f0c53-96be-41e4-f5ba-3e3ded2df7ee",
+							"fieldType": "sap.m.Dialog",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "endButton",
+									"grouping": "Associations",
+									"value": "oButtonUnidadAcademicaClose",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": [
+								{
+									"fieldNo": "756e286e-1268-4669-9101-eca383c8949d",
+									"fieldName": "oSimpleForm1",
+									"fieldParent": "b092eaac-3502-4cc8-f309-368bec22a48f",
+									"fieldType": "sap.ui.layout.form.SimpleForm",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [],
+									"data": [
+										{
+											"fieldNo": "04f8889c-0799-436f-bc90-541004bd93d4",
+											"fieldName": "oVBox1",
+											"fieldParent": "756e286e-1268-4669-9101-eca383c8949d",
+											"fieldType": "sap.m.VBox",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [],
+											"data": [
+												{
+													"fieldNo": "a6ffb2a3-daf4-46ad-8bf3-90d33f4d058d",
+													"fieldName": "oSearchFieldUnidadAcademica",
+													"fieldParent": "04f8889c-0799-436f-bc90-541004bd93d4",
+													"fieldType": "sap.m.SearchField",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "search",
+															"grouping": "Events",
+															"value": "Anonymous Function",
+															"script": "file://event/sap.m.SearchField/oSearchFieldUnidadAcademica/search.js",
+															"language": "javascript",
+															"translation": []
+														},
+														{
+															"attribute": "liveChange",
+															"grouping": "Events",
+															"value": "Anonymous Function",
+															"script": "file://event/sap.m.SearchField/oSearchFieldUnidadAcademica/liveChange.script",
+															"translation": []
+														}
+													],
+													"data": []
+												},
+												{
+													"fieldNo": "23b58cd9-4483-4521-bb06-1e4fb2bb0111",
+													"fieldName": "oTableUnidadAcademica",
+													"fieldParent": "04f8889c-0799-436f-bc90-541004bd93d4",
+													"fieldType": "sap.m.Table",
+													"script": "",
+													"customComponent": false,
+													"bindingValue": "Generic Array",
+													"bindingType": "h",
+													"bindingSource": "P9",
+													"request": [],
+													"response": [],
+													"attributes": [],
+													"data": [
+														{
+															"fieldNo": "842403c1-eec6-4eef-bfc6-d64b6b9e24d2",
+															"fieldName": "coloTableUnidadAcademicaCODIGO_UNIDAD_0",
+															"fieldParent": "23b58cd9-4483-4521-bb06-1e4fb2bb0111",
+															"fieldType": "sap.m.Column",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [],
+															"data": [
+																{
+																	"fieldNo": "17993244-aa5b-4154-f8b4-693bfc98ea97",
+																	"fieldName": "colHoTableUnidadAcademicaCODIGO_UNIDAD_0",
+																	"fieldParent": "842403c1-eec6-4eef-bfc6-d64b6b9e24d2",
+																	"fieldType": "sap.m.Text",
+																	"script": "",
+																	"customComponent": false,
+																	"request": [],
+																	"response": [],
+																	"attributes": [
+																		{
+																			"attribute": "text",
+																			"grouping": "Properties",
+																			"value": "ID Codigo Unidad 0",
+																			"script": "",
+																			"translation": []
+																		}
+																	],
+																	"data": []
+																}
+															]
+														},
+														{
+															"fieldNo": "03a6f16d-1eae-49b0-dc5a-8920ac211df5",
+															"fieldName": "coloTableUnidadAcademicaNOMBRE_UNIDAD_0",
+															"fieldParent": "23b58cd9-4483-4521-bb06-1e4fb2bb0111",
+															"fieldType": "sap.m.Column",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [],
+															"data": [
+																{
+																	"fieldNo": "052093e7-f134-48e0-f039-e0715512f664",
+																	"fieldName": "colHoTableUnidadAcademicaNOMBRE_UNIDAD_0",
+																	"fieldParent": "03a6f16d-1eae-49b0-dc5a-8920ac211df5",
+																	"fieldType": "sap.m.Text",
+																	"script": "",
+																	"customComponent": false,
+																	"request": [],
+																	"response": [],
+																	"attributes": [
+																		{
+																			"attribute": "text",
+																			"grouping": "Properties",
+																			"value": "Descripción Codigo Unidad 0",
+																			"script": "",
+																			"translation": []
+																		}
+																	],
+																	"data": []
+																}
+															]
+														},
+														{
+															"fieldNo": "97636c51-fdc7-4159-e519-760b2f8b8f02",
+															"fieldName": "coloTableUnidadAcademicaCODIGO_UNIDAD",
+															"fieldParent": "23b58cd9-4483-4521-bb06-1e4fb2bb0111",
+															"fieldType": "sap.m.Column",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [],
+															"data": [
+																{
+																	"fieldNo": "20f31de7-cb55-47ce-eacb-b97ef6052175",
+																	"fieldName": "colHoTableUnidadAcademicaCODIGO_UNIDAD",
+																	"fieldParent": "97636c51-fdc7-4159-e519-760b2f8b8f02",
+																	"fieldType": "sap.m.Text",
+																	"script": "",
+																	"customComponent": false,
+																	"request": [],
+																	"response": [],
+																	"attributes": [
+																		{
+																			"attribute": "text",
+																			"grouping": "Properties",
+																			"value": "ID Codigo Unidad",
+																			"script": "",
+																			"translation": []
+																		}
+																	],
+																	"data": []
+																}
+															]
+														},
+														{
+															"fieldNo": "fa19fb5b-c11e-47ff-89e7-7f19793394c7",
+															"fieldName": "coloTableUnidadAcademicaNOMBRE_UNIDAD",
+															"fieldParent": "23b58cd9-4483-4521-bb06-1e4fb2bb0111",
+															"fieldType": "sap.m.Column",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [],
+															"data": [
+																{
+																	"fieldNo": "e37d307d-b6da-4766-e920-6f7b69c160cf",
+																	"fieldName": "colHoTableUnidadAcademicaNOMBRE_UNIDAD",
+																	"fieldParent": "fa19fb5b-c11e-47ff-89e7-7f19793394c7",
+																	"fieldType": "sap.m.Text",
+																	"script": "",
+																	"customComponent": false,
+																	"request": [],
+																	"response": [],
+																	"attributes": [
+																		{
+																			"attribute": "text",
+																			"grouping": "Properties",
+																			"value": "Descripción Codigo Unidad",
+																			"script": "",
+																			"translation": []
+																		}
+																	],
+																	"data": []
+																}
+															]
+														},
+														{
+															"fieldNo": "596434a0-0fc8-4b30-d3b0-ea8f52e308c9",
+															"fieldName": "coloTableUnidadAcademicaCODIGO_FACULTAD",
+															"fieldParent": "23b58cd9-4483-4521-bb06-1e4fb2bb0111",
+															"fieldType": "sap.m.Column",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [],
+															"data": [
+																{
+																	"fieldNo": "43ef794e-77a5-4aaa-c18c-297f97cf5f1c",
+																	"fieldName": "colHoTableUnidadAcademicaCODIGO_FACULTAD",
+																	"fieldParent": "596434a0-0fc8-4b30-d3b0-ea8f52e308c9",
+																	"fieldType": "sap.m.Text",
+																	"script": "",
+																	"customComponent": false,
+																	"request": [],
+																	"response": [],
+																	"attributes": [
+																		{
+																			"attribute": "text",
+																			"grouping": "Properties",
+																			"value": "ID Codigo Facultad",
+																			"script": "",
+																			"translation": []
+																		}
+																	],
+																	"data": []
+																}
+															]
+														},
+														{
+															"fieldNo": "c36e5d98-58e7-4d75-9e03-924287024e75",
+															"fieldName": "coloTableUnidadAcademicaNOMBRE_FACULTAD",
+															"fieldParent": "23b58cd9-4483-4521-bb06-1e4fb2bb0111",
+															"fieldType": "sap.m.Column",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [],
+															"data": [
+																{
+																	"fieldNo": "c80c5be4-5cdb-4a87-f62d-db6ec744f282",
+																	"fieldName": "colHoTableUnidadAcademicaNOMBRE_FACULTAD",
+																	"fieldParent": "c36e5d98-58e7-4d75-9e03-924287024e75",
+																	"fieldType": "sap.m.Text",
+																	"script": "",
+																	"customComponent": false,
+																	"request": [],
+																	"response": [],
+																	"attributes": [
+																		{
+																			"attribute": "text",
+																			"grouping": "Properties",
+																			"value": "Descripción Codigo Facultad",
+																			"script": "",
+																			"translation": []
+																		}
+																	],
+																	"data": []
+																}
+															]
+														},
+														{
+															"fieldNo": "0a63eb42-03b4-4d3f-c28c-19a3f1bb7939",
+															"fieldName": "coloTableUnidadAcademicaCODIGO_AGRUPACION",
+															"fieldParent": "23b58cd9-4483-4521-bb06-1e4fb2bb0111",
+															"fieldType": "sap.m.Column",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [],
+															"data": [
+																{
+																	"fieldNo": "9634a95e-7154-466a-af90-c47c6c4cf9b6",
+																	"fieldName": "colHoTableUnidadAcademicaCODIGO_AGRUPACION",
+																	"fieldParent": "0a63eb42-03b4-4d3f-c28c-19a3f1bb7939",
+																	"fieldType": "sap.m.Text",
+																	"script": "",
+																	"customComponent": false,
+																	"request": [],
+																	"response": [],
+																	"attributes": [
+																		{
+																			"attribute": "text",
+																			"grouping": "Properties",
+																			"value": "ID Codigo Agrupacion",
+																			"script": "",
+																			"translation": []
+																		}
+																	],
+																	"data": []
+																}
+															]
+														},
+														{
+															"fieldNo": "03611492-b967-426e-9a4a-9243df3c731a",
+															"fieldName": "coloTableUnidadAcademicaNOMBRE_AGRUPACION",
+															"fieldParent": "23b58cd9-4483-4521-bb06-1e4fb2bb0111",
+															"fieldType": "sap.m.Column",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [],
+															"data": [
+																{
+																	"fieldNo": "7e1f5f14-3b8a-4e86-af8e-05a47433f6ba",
+																	"fieldName": "colHoTableUnidadAcademicaNOMBRE_AGRUPACION",
+																	"fieldParent": "03611492-b967-426e-9a4a-9243df3c731a",
+																	"fieldType": "sap.m.Text",
+																	"script": "",
+																	"customComponent": false,
+																	"request": [],
+																	"response": [],
+																	"attributes": [
+																		{
+																			"attribute": "text",
+																			"grouping": "Properties",
+																			"value": "Descripción Codigo Agrupacion",
+																			"script": "",
+																			"translation": []
+																		}
+																	],
+																	"data": []
+																}
+															]
+														},
+														{
+															"fieldNo": "5b690bd8-78bc-4cdc-d1d7-09bb3ccdd724",
+															"fieldName": "colItemoTableUnidadAcademica",
+															"fieldParent": "23b58cd9-4483-4521-bb06-1e4fb2bb0111",
+															"fieldType": "sap.m.ColumnListItem",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "type",
+																	"grouping": "Properties",
+																	"value": "Active",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "press",
+																	"grouping": "Events",
+																	"value": "Anonymous Function",
+																	"script": "file://event/sap.m.ColumnListItem/colItemoTableUnidadAcademica/press.script",
+																	"translation": []
+																}
+															],
+															"data": [
+																{
+																	"fieldNo": "d8d04dd8-323a-4c25-d001-5835899569fd",
+																	"fieldName": "txtoTableUnidadAcademicaCODIGO_UNIDAD_0",
+																	"fieldParent": "5b690bd8-78bc-4cdc-d1d7-09bb3ccdd724",
+																	"fieldType": "sap.m.Text",
+																	"script": "",
+																	"customComponent": false,
+																	"request": [],
+																	"response": [],
+																	"attributes": [
+																		{
+																			"attribute": "text",
+																			"grouping": "Properties",
+																			"value": "{CODIGO_UNIDAD_0}",
+																			"script": "",
+																			"translation": []
+																		}
+																	],
+																	"data": []
+																},
+																{
+																	"fieldNo": "849097d3-5516-4f2a-c5dc-370bb8d0ae6e",
+																	"fieldName": "txtoTableUnidadAcademicaNOMBRE_UNIDAD_0",
+																	"fieldParent": "5b690bd8-78bc-4cdc-d1d7-09bb3ccdd724",
+																	"fieldType": "sap.m.Text",
+																	"script": "",
+																	"customComponent": false,
+																	"request": [],
+																	"response": [],
+																	"attributes": [
+																		{
+																			"attribute": "text",
+																			"grouping": "Properties",
+																			"value": "{NOMBRE_UNIDAD_0}",
+																			"script": "",
+																			"translation": []
+																		}
+																	],
+																	"data": []
+																},
+																{
+																	"fieldNo": "21614696-8f73-470d-ea69-a0e3e1903db8",
+																	"fieldName": "txtoTableUnidadAcademicaCODIGO_UNIDAD",
+																	"fieldParent": "5b690bd8-78bc-4cdc-d1d7-09bb3ccdd724",
+																	"fieldType": "sap.m.Text",
+																	"script": "",
+																	"customComponent": false,
+																	"request": [],
+																	"response": [],
+																	"attributes": [
+																		{
+																			"attribute": "text",
+																			"grouping": "Properties",
+																			"value": "{CODIGO_UNIDAD}",
+																			"script": "",
+																			"translation": []
+																		}
+																	],
+																	"data": []
+																},
+																{
+																	"fieldNo": "5033ee73-9244-4b10-9efc-01b5935eebfc",
+																	"fieldName": "txtoTableUnidadAcademicaNOMBRE_UNIDAD",
+																	"fieldParent": "5b690bd8-78bc-4cdc-d1d7-09bb3ccdd724",
+																	"fieldType": "sap.m.Text",
+																	"script": "",
+																	"customComponent": false,
+																	"request": [],
+																	"response": [],
+																	"attributes": [
+																		{
+																			"attribute": "text",
+																			"grouping": "Properties",
+																			"value": "{NOMBRE_UNIDAD}",
+																			"script": "",
+																			"translation": []
+																		}
+																	],
+																	"data": []
+																},
+																{
+																	"fieldNo": "295002f2-d052-4f44-919f-47b5c66f400d",
+																	"fieldName": "txtoTableUnidadAcademicaCODIGO_FACULTAD",
+																	"fieldParent": "5b690bd8-78bc-4cdc-d1d7-09bb3ccdd724",
+																	"fieldType": "sap.m.Text",
+																	"script": "",
+																	"customComponent": false,
+																	"request": [],
+																	"response": [],
+																	"attributes": [
+																		{
+																			"attribute": "text",
+																			"grouping": "Properties",
+																			"value": "{CODIGO_FACULTAD}",
+																			"script": "",
+																			"translation": []
+																		}
+																	],
+																	"data": []
+																},
+																{
+																	"fieldNo": "de6ad508-416a-4da1-f01f-883b797a533d",
+																	"fieldName": "txtoTableUnidadAcademicaNOMBRE_FACULTAD",
+																	"fieldParent": "5b690bd8-78bc-4cdc-d1d7-09bb3ccdd724",
+																	"fieldType": "sap.m.Text",
+																	"script": "",
+																	"customComponent": false,
+																	"request": [],
+																	"response": [],
+																	"attributes": [
+																		{
+																			"attribute": "text",
+																			"grouping": "Properties",
+																			"value": "{NOMBRE_FACULTAD}",
+																			"script": "",
+																			"translation": []
+																		}
+																	],
+																	"data": []
+																},
+																{
+																	"fieldNo": "3053dbeb-4636-4da5-be39-8d52ab0c4510",
+																	"fieldName": "txtoTableUnidadAcademicaCODIGO_AGRUPACION",
+																	"fieldParent": "5b690bd8-78bc-4cdc-d1d7-09bb3ccdd724",
+																	"fieldType": "sap.m.Text",
+																	"script": "",
+																	"customComponent": false,
+																	"request": [],
+																	"response": [],
+																	"attributes": [
+																		{
+																			"attribute": "text",
+																			"grouping": "Properties",
+																			"value": "{CODIGO_AGRUPACION}",
+																			"script": "",
+																			"translation": []
+																		}
+																	],
+																	"data": []
+																},
+																{
+																	"fieldNo": "d26ce7a5-2a3f-4f8c-d56e-b8760ffa5dd4",
+																	"fieldName": "txtoTableUnidadAcademicaNOMBRE_AGRUPACION",
+																	"fieldParent": "5b690bd8-78bc-4cdc-d1d7-09bb3ccdd724",
+																	"fieldType": "sap.m.Text",
+																	"script": "",
+																	"customComponent": false,
+																	"request": [],
+																	"response": [],
+																	"attributes": [
+																		{
+																			"attribute": "text",
+																			"grouping": "Properties",
+																			"value": "{NOMBRE_AGRUPACION}",
+																			"script": "",
+																			"translation": []
+																		}
+																	],
+																	"data": []
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"fieldNo": "7b7b604b-43de-4bac-ed09-e6f722901f5d",
+							"fieldName": "oButtonPeriodicidadClose",
+							"fieldParent": "664f0c53-96be-41e4-f5ba-3e3ded2df7ee",
+							"fieldType": "sap.m.Button",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "type",
+									"grouping": "Properties",
+									"value": "Reject",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "icon",
+									"grouping": "Properties",
+									"value": "sap-icon://sys-cancel",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "press",
+									"grouping": "Events",
+									"value": "oDialogPeriodicidad.close();",
+									"script": "oDialogPeriodicidad.close();",
+									"translation": []
+								}
+							],
+							"data": []
+						},
+						{
+							"fieldNo": "4efcff91-5ff3-4028-b054-b07ed2b7cd0c",
+							"fieldName": "oDialogPeriodicidad",
+							"fieldParent": "664f0c53-96be-41e4-f5ba-3e3ded2df7ee",
+							"fieldType": "sap.m.Dialog",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "title",
+									"grouping": "Properties",
+									"value": "Periodicidad",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "endButton",
+									"grouping": "Associations",
+									"value": "oButtonPeriodicidadClose",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": [
+								{
+									"fieldNo": "1e679404-0268-437f-b35a-4cbc42c0410a",
+									"fieldName": "oSimpleForm3",
+									"fieldParent": "4efcff91-5ff3-4028-b054-b07ed2b7cd0c",
+									"fieldType": "sap.ui.layout.form.SimpleForm",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [],
+									"data": [
+										{
+											"fieldNo": "fddec451-5a4b-44fb-a287-62b9deac11da",
+											"fieldName": "oVBox3",
+											"fieldParent": "1e679404-0268-437f-b35a-4cbc42c0410a",
+											"fieldType": "sap.m.VBox",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [],
+											"data": [
+												{
+													"fieldNo": "01aa93ca-8d71-4fa5-f629-72a1c18d0064",
+													"fieldName": "oSearchFieldPeriodicidad",
+													"fieldParent": "fddec451-5a4b-44fb-a287-62b9deac11da",
+													"fieldType": "sap.m.SearchField",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "liveChange",
+															"grouping": "Events",
+															"value": "Anonymous Function",
+															"script": "file://event/sap.m.SearchField/oSearchFieldPeriodicidad/liveChange.script",
+															"translation": []
+														}
+													],
+													"data": []
+												},
+												{
+													"fieldNo": "bdb1459d-6ad3-4f8b-e074-8a9832d59365",
+													"fieldName": "oTablePeriodicidad",
+													"fieldParent": "fddec451-5a4b-44fb-a287-62b9deac11da",
+													"fieldType": "sap.m.Table",
+													"script": "",
+													"customComponent": false,
+													"bindingValue": "Generic Array",
+													"bindingType": "h",
+													"bindingSource": "P9",
+													"request": [],
+													"response": [],
+													"attributes": [],
+													"data": [
+														{
+															"fieldNo": "412a1a96-97fb-49f9-a223-a13ea3ceb130",
+															"fieldName": "coloTableID_PERIODO",
+															"fieldParent": "bdb1459d-6ad3-4f8b-e074-8a9832d59365",
+															"fieldType": "sap.m.Column",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [],
+															"data": [
+																{
+																	"fieldNo": "e723fc1b-6c9d-4cbc-e7ac-585039b5e41b",
+																	"fieldName": "colHoTableID_PERIODO",
+																	"fieldParent": "412a1a96-97fb-49f9-a223-a13ea3ceb130",
+																	"fieldType": "sap.m.Text",
+																	"script": "",
+																	"customComponent": false,
+																	"request": [],
+																	"response": [],
+																	"attributes": [
+																		{
+																			"attribute": "text",
+																			"grouping": "Properties",
+																			"value": "ID Periodo",
+																			"script": "",
+																			"translation": []
+																		}
+																	],
+																	"data": []
+																}
+															]
+														},
+														{
+															"fieldNo": "6cf02c76-30c7-43c2-e113-4792e86f69cf",
+															"fieldName": "coloTableANIO",
+															"fieldParent": "bdb1459d-6ad3-4f8b-e074-8a9832d59365",
+															"fieldType": "sap.m.Column",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [],
+															"data": [
+																{
+																	"fieldNo": "2e44fe4e-8482-4ec2-8019-bc6f8abe9d8a",
+																	"fieldName": "colHoTableANIO",
+																	"fieldParent": "6cf02c76-30c7-43c2-e113-4792e86f69cf",
+																	"fieldType": "sap.m.Text",
+																	"script": "",
+																	"customComponent": false,
+																	"request": [],
+																	"response": [],
+																	"attributes": [
+																		{
+																			"attribute": "text",
+																			"grouping": "Properties",
+																			"value": "Año académico",
+																			"script": "",
+																			"translation": []
+																		}
+																	],
+																	"data": []
+																}
+															]
+														},
+														{
+															"fieldNo": "98b57d0f-c9e9-48c8-e79a-4b1d4b513027",
+															"fieldName": "coloTablePERIODO",
+															"fieldParent": "bdb1459d-6ad3-4f8b-e074-8a9832d59365",
+															"fieldType": "sap.m.Column",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [],
+															"data": [
+																{
+																	"fieldNo": "a0546019-4c26-40b3-e7dc-5436ebfc411e",
+																	"fieldName": "colHoTablePERIODO",
+																	"fieldParent": "98b57d0f-c9e9-48c8-e79a-4b1d4b513027",
+																	"fieldType": "sap.m.Text",
+																	"script": "",
+																	"customComponent": false,
+																	"request": [],
+																	"response": [],
+																	"attributes": [
+																		{
+																			"attribute": "text",
+																			"grouping": "Properties",
+																			"value": "Período académico",
+																			"script": "",
+																			"translation": []
+																		}
+																	],
+																	"data": []
+																}
+															]
+														},
+														{
+															"fieldNo": "f001d12d-d59f-4982-af61-a3538b25174d",
+															"fieldName": "coloTableTEXTO",
+															"fieldParent": "bdb1459d-6ad3-4f8b-e074-8a9832d59365",
+															"fieldType": "sap.m.Column",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [],
+															"data": [
+																{
+																	"fieldNo": "379291ca-3456-44f1-aae0-ceb67dcf50fc",
+																	"fieldName": "colHoTableTEXTO",
+																	"fieldParent": "f001d12d-d59f-4982-af61-a3538b25174d",
+																	"fieldType": "sap.m.Text",
+																	"script": "",
+																	"customComponent": false,
+																	"request": [],
+																	"response": [],
+																	"attributes": [
+																		{
+																			"attribute": "text",
+																			"grouping": "Properties",
+																			"value": "Clave para asignación de períodos",
+																			"script": "",
+																			"translation": []
+																		}
+																	],
+																	"data": []
+																}
+															]
+														},
+														{
+															"fieldNo": "1cbc1471-4ce1-419f-98e3-e8dcac6ab8ff",
+															"fieldName": "coloTableFECHA_INICIAL",
+															"fieldParent": "bdb1459d-6ad3-4f8b-e074-8a9832d59365",
+															"fieldType": "sap.m.Column",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [],
+															"data": [
+																{
+																	"fieldNo": "79dac808-c0d6-4381-cba3-1d910829a10c",
+																	"fieldName": "colHoTableFECHA_INICIAL",
+																	"fieldParent": "1cbc1471-4ce1-419f-98e3-e8dcac6ab8ff",
+																	"fieldType": "sap.m.Text",
+																	"script": "",
+																	"customComponent": false,
+																	"request": [],
+																	"response": [],
+																	"attributes": [
+																		{
+																			"attribute": "text",
+																			"grouping": "Properties",
+																			"value": "Formato de fecha AAAAMMDD",
+																			"script": "",
+																			"translation": []
+																		}
+																	],
+																	"data": []
+																}
+															]
+														},
+														{
+															"fieldNo": "f64a05aa-8b61-4ed6-8a9c-ec671933a4f7",
+															"fieldName": "coloTableFECHA_FINAL",
+															"fieldParent": "bdb1459d-6ad3-4f8b-e074-8a9832d59365",
+															"fieldType": "sap.m.Column",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [],
+															"data": [
+																{
+																	"fieldNo": "e4ef6f6e-5be7-4242-e53b-6564f6f073a9",
+																	"fieldName": "colHoTableFECHA_FINAL",
+																	"fieldParent": "f64a05aa-8b61-4ed6-8a9c-ec671933a4f7",
+																	"fieldType": "sap.m.Text",
+																	"script": "",
+																	"customComponent": false,
+																	"request": [],
+																	"response": [],
+																	"attributes": [
+																		{
+																			"attribute": "text",
+																			"grouping": "Properties",
+																			"value": "Formato de fecha AAAAMMDD",
+																			"script": "",
+																			"translation": []
+																		}
+																	],
+																	"data": []
+																}
+															]
+														},
+														{
+															"fieldNo": "da731698-3461-40f1-ce1a-ee263a0152cf",
+															"fieldName": "colItemoTablePeriodicidad",
+															"fieldParent": "bdb1459d-6ad3-4f8b-e074-8a9832d59365",
+															"fieldType": "sap.m.ColumnListItem",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "type",
+																	"grouping": "Properties",
+																	"value": "Active",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "press",
+																	"grouping": "Events",
+																	"value": "Anonymous Function",
+																	"script": "file://event/sap.m.ColumnListItem/colItemoTablePeriodicidad/press.script",
+																	"translation": []
+																}
+															],
+															"data": [
+																{
+																	"fieldNo": "0c7948a5-a1d7-4d56-8be3-a6f26feeac6b",
+																	"fieldName": "txtoTableID_PERIODO",
+																	"fieldParent": "da731698-3461-40f1-ce1a-ee263a0152cf",
+																	"fieldType": "sap.m.Text",
+																	"script": "",
+																	"customComponent": false,
+																	"request": [],
+																	"response": [],
+																	"attributes": [
+																		{
+																			"attribute": "text",
+																			"grouping": "Properties",
+																			"value": "{ID_PERIODO}",
+																			"script": "",
+																			"translation": []
+																		}
+																	],
+																	"data": []
+																},
+																{
+																	"fieldNo": "12623c64-df57-42c4-93de-8d72b724829e",
+																	"fieldName": "txtoTableANIO",
+																	"fieldParent": "da731698-3461-40f1-ce1a-ee263a0152cf",
+																	"fieldType": "sap.m.Text",
+																	"script": "",
+																	"customComponent": false,
+																	"request": [],
+																	"response": [],
+																	"attributes": [
+																		{
+																			"attribute": "text",
+																			"grouping": "Properties",
+																			"value": "{ANIO}",
+																			"script": "",
+																			"translation": []
+																		}
+																	],
+																	"data": []
+																},
+																{
+																	"fieldNo": "ecac18bd-dc25-4ecb-8463-30c10e670d35",
+																	"fieldName": "txtoTablePERIODO",
+																	"fieldParent": "da731698-3461-40f1-ce1a-ee263a0152cf",
+																	"fieldType": "sap.m.Text",
+																	"script": "",
+																	"customComponent": false,
+																	"request": [],
+																	"response": [],
+																	"attributes": [
+																		{
+																			"attribute": "text",
+																			"grouping": "Properties",
+																			"value": "{PERIODO}",
+																			"script": "",
+																			"translation": []
+																		}
+																	],
+																	"data": []
+																},
+																{
+																	"fieldNo": "64b160c5-5035-4209-99da-96c1560d621a",
+																	"fieldName": "txtoTableTEXTO",
+																	"fieldParent": "da731698-3461-40f1-ce1a-ee263a0152cf",
+																	"fieldType": "sap.m.Text",
+																	"script": "",
+																	"customComponent": false,
+																	"request": [],
+																	"response": [],
+																	"attributes": [
+																		{
+																			"attribute": "text",
+																			"grouping": "Properties",
+																			"value": "{TEXTO}",
+																			"script": "",
+																			"translation": []
+																		}
+																	],
+																	"data": []
+																},
+																{
+																	"fieldNo": "03b5266b-79af-4f34-d0a6-74a112a4bd9f",
+																	"fieldName": "txtoTableFECHA_INICIAL",
+																	"fieldParent": "da731698-3461-40f1-ce1a-ee263a0152cf",
+																	"fieldType": "sap.m.Text",
+																	"script": "",
+																	"customComponent": false,
+																	"request": [],
+																	"response": [],
+																	"attributes": [
+																		{
+																			"attribute": "text",
+																			"grouping": "Properties",
+																			"value": "{FECHA_INICIAL}",
+																			"script": "",
+																			"translation": []
+																		}
+																	],
+																	"data": []
+																},
+																{
+																	"fieldNo": "3b2394f4-cd59-4c9f-a537-83d3891529ed",
+																	"fieldName": "txtoTableFECHA_FINAL",
+																	"fieldParent": "da731698-3461-40f1-ce1a-ee263a0152cf",
+																	"fieldType": "sap.m.Text",
+																	"script": "",
+																	"customComponent": false,
+																	"request": [],
+																	"response": [],
+																	"attributes": [
+																		{
+																			"attribute": "text",
+																			"grouping": "Properties",
+																			"value": "{FECHA_FINAL}",
+																			"script": "",
+																			"translation": []
+																		}
+																	],
+																	"data": []
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"fieldNo": 99998,
+			"data": []
+		}
+	],
+	"componentInterface": null,
+	"ver": "22.8.11.1016",
+	"application": "zdemo_lasalle_app",
+	"title": "",
+	"description": "",
+	"enableFileStorage": false,
+	"enableManifest": false,
+	"enableStylesheet": false,
+	"enableObfuscate": false,
+	"onlyRunLaunchpad": false,
+	"disabled": false,
+	"loadLaunchpadCode": null,
+	"loadApplicationCode": null,
+	"appType": "A",
+	"ui5_m": true,
+	"ui5_f": false,
+	"ui5_table": false,
+	"ui5_tnt": false,
+	"ui5_uxap": false,
+	"ui5_chart": false,
+	"ui5_theme": "sap_fiori_3",
+	"ui5_version": "",
+	"ui5_language": null,
+	"ui5_url": null,
+	"cus_theme": "",
+	"css": "",
+	"compiledCss": null,
+	"header": "",
+	"manifest": "",
+	"globalScript": "",
+	"deleted": false,
+	"libHighchart": false,
+	"libHighmap": false,
+	"publicAccess": false,
+	"ui5_bootstrap": false,
+	"ui5_ionic": false,
+	"useV2AppHandler": false,
+	"compilerTarget": 3,
+	"tabWidth": null,
+	"printWidth": null,
+	"generateVersionOnActivation": false,
+	"activationHistoryCount": 0,
+	"apis": [
+		{
+			"id": "6a5d9fcd-4c19-ed11-bd6e-a085fcbc6cdc",
+			"name": "LaSalleAPI_ServerScript_Oracle",
+			"ver": "22.8.11.88"
+		}
+	],
+	"package": "ab85fe53-4b19-ed11-bd6e-a085fcbc6cdc"
+}

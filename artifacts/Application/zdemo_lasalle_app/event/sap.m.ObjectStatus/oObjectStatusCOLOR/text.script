@@ -1,0 +1,6 @@
+if (typeof NUMERO_IDENTIFICACION === "undefined" || NUMERO_IDENTIFICACION === null || NUMERO_IDENTIFICACION === "") { return; }  
+var formattedText = NUMERO_IDENTIFICACION; 
+
+formattedText = "Numero Identificacion" + ' ' + formattedText;
+
+return formattedText;

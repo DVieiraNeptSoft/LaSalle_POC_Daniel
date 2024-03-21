@@ -1,0 +1,28 @@
+debugger;
+
+// var options = {};
+
+// apioRestAPI_ServerScriptOracle(options);
+
+f_setBusy(true);
+
+// query.IV_COD_FACULTAD = oInput1.getValue();
+// query.IV_COD_PROGRAMA = oInput3.getValue();
+
+// console.log(modeloModelObjectQuery.getData());
+
+var options = {
+    parameters: {
+        // "IV_COD_UNIDAD": "", // Optional 
+        "IV_COD_FACULTAD": modeloModelObjectQuery.getData().IV_COD_FACULTAD, // Optional 
+        "IV_COD_PROGRAMA": modeloModelObjectQuery.getData().IV_COD_PROGRAMA, // Optional 
+        // "IV_COD_PLAN_EST": "", // Optional 
+        // "IV_ABREV_MATERIA": "", // Optional 
+        "IV_FECHA_INICIAL": modeloModelObjectQuery.getData().IV_FECHA_INICIAL, // Required 
+        "IV_FECHA_FINAL": modeloModelObjectQuery.getData().IV_FECHA_FINAL, // Required 
+        "IV_NUMERO_IDENTIFICACION": modeloModelObjectQuery.getData().IV_NUMERO_IDENTIFICACION
+    }
+    // data: {}
+};
+
+apioRestAPIGetEventos(options);

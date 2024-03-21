@@ -1,0 +1,81 @@
+{
+	"id": "ab85fe53-4b19-ed11-bd6e-a085fcbc6cdc",
+	"createdAt": "2022-08-11T07:58:05.073Z",
+	"createdBy": "daniel.vieira@neptune-software.com",
+	"git": {
+		"targetServers": [],
+		"remote": "https://github.com/DVieiraNeptSoft/LaSalle_POC_Daniel"
+	},
+	"name": "LaSalle_POC_Daniel",
+	"description": null,
+	"ver": "24.3.21.1519",
+	"enableCICD": true,
+	"apps": [
+		{
+			"id": "f41b25a4-4b19-ed11-bd6e-a085fcbc6cdc",
+			"application": "zdemo_lasalle_app",
+			"title": "",
+			"description": "",
+			"package": {
+				"id": "AB85FE53-4B19-ED11-BD6E-A085FCBC6CDC"
+			}
+		}
+	],
+	"api": [
+		{
+			"id": "6a5d9fcd-4c19-ed11-bd6e-a085fcbc6cdc",
+			"name": "LaSalleAPI_ServerScript_Oracle",
+			"description": null,
+			"apiGroup": null
+		}
+	],
+	"odataSource": [],
+	"odataMock": [],
+	"dictionary": [],
+	"jsclass": [
+		{
+			"id": "bcc8d950-5c6a-ed11-ac20-0050f279cdef",
+			"name": "test",
+			"description": null
+		},
+		{
+			"id": "a3224aeb-4b19-ed11-bd6e-a085fcbc6cdc",
+			"name": "SelectScript",
+			"description": null
+		},
+		{
+			"id": "6aa6a149-9f70-ed11-9f60-000d3a6554d3",
+			"name": "ztest",
+			"description": null
+		}
+	],
+	"jsscript_group": [
+		{
+			"id": "c445ddd9-4b19-ed11-bd6e-a085fcbc6cdc",
+			"name": "ZDEMO_LASALLE_SCRIPT",
+			"description": null
+		}
+	],
+	"theme": [],
+	"pdf": [],
+	"rulesengine": [],
+	"reports": [],
+	"api_authentication": [],
+	"api_group": [],
+	"tile": [],
+	"category": [],
+	"launchpad": [],
+	"certificates": [],
+	"role": [],
+	"systems": [],
+	"doc": [],
+	"wf_notifications": [],
+	"department": [],
+	"script_scheduler": [],
+	"wf_definition": [],
+	"connector": [],
+	"events": [],
+	"code_snippets": [],
+	"wf_determination": [],
+	"wf_taskaction": []
+}

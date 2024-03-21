@@ -1,0 +1,13 @@
+var binding = oTablePeriodicidad.getBinding("items");
+var filter = new sap.ui.model.Filter({
+    filters: [
+        // new sap.ui.model.Filter("ID_PERIODO", "Contains", this.getValue()),
+        // new sap.ui.model.Filter("ANIO", "Contains", this.getValue()),
+        // new sap.ui.model.Filter("PERIODO", "Contains", this.getValue()),
+        new sap.ui.model.Filter("TEXTO", "Contains", this.getValue()),
+        // new sap.ui.model.Filter("FECHA_INICIAL", "Contains", this.getValue()),
+        // new sap.ui.model.Filter("FECHA_FINAL", "Contains", this.getValue()),
+    ],
+    and: false
+})
+binding.filter([filter]);

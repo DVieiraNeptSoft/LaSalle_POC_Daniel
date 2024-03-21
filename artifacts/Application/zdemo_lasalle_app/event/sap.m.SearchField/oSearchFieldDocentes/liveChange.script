@@ -1,0 +1,9 @@
+var binding = oTableDocentes.getBinding("items");
+var filter = new sap.ui.model.Filter({
+    filters: [
+        new sap.ui.model.Filter("NOMBRES", "Contains", this.getValue()),
+        new sap.ui.model.Filter("APELLIDOS", "Contains", this.getValue())
+    ],
+    and: false
+})
+binding.filter([filter]);

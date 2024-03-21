@@ -1,0 +1,18 @@
+// Replace yourField with FieldName
+var context = oEvent.oSource.getBindingContext();  
+
+// Get Single Field
+// var value = context.getProperty("yourField");
+
+// Get Entire Model
+var data = context.getObject();
+
+// console.log(data);
+
+oInput1.setValue(data.CODIGO_UNIDAD);
+oInput2.setValue(data.CODIGO_AGRUPACION);
+
+modeloModelObjectQuery.getData().IV_COD_FACULTAD = oInput1.getValue();
+modeloModelObjectQuery.getData().IV_CODIGO_AGRUPACION = oInput2.getValue();
+
+oDialogUnidadAcademica.close();

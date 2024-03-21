@@ -1,0 +1,29 @@
+debugger;
+
+var table_docentes = xhr.responseJSON.result.GT_ASIG_DOCENTE;
+
+modeloModelObjectQuery.getData().SAP = 'X';
+
+var struc_query = modeloModelObjectQuery.getData();
+
+console.log(struc_query);
+
+var options = {
+    // parameters: {
+    //     "IV_COD_PROGRAMA ": query.IV_COD_FACULTAD,
+    //     "IV_COD_PROGRAMA ": query.IV_COD_PROGRAMA,
+    //     "IV_FECHA_INICIAL": query.IV_FECHA_INICIAL,
+    //     "IV_FECHA_FINAL": query.IV_FECHA_FINAL,
+    //     "IV_ID_PERIODO ": query.IV_ID_PERIODO,
+    //     "SAP": query.SAP
+
+    // },
+    data: {
+        struc_query,
+        table_docentes
+    }
+};
+
+
+
+apioRestAPI_ServerScriptOracle(options);

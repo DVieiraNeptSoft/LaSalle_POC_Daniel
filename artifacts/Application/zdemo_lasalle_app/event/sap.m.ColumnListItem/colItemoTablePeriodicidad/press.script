@@ -1,0 +1,16 @@
+// Replace yourField with FieldName
+var context = oEvent.oSource.getBindingContext();  
+
+// Get Single Field
+// var value = context.getProperty("yourField");
+
+// Get Entire Model
+var data = context.getObject();
+
+modeloModelObjectQuery.getData().IV_FECHA_INICIAL = data.FECHA_INICIAL;
+modeloModelObjectQuery.getData().IV_FECHA_FINAL = data.FECHA_FINAL;
+modeloModelObjectQuery.getData().IV_ID_PERIODO = data.ID_PERIODO;
+
+oInput.setValue(data.TEXTO + ' / ' + data.FECHA_INICIAL + ' - ' + data.FECHA_FINAL);
+
+oDialogPeriodicidad.close();

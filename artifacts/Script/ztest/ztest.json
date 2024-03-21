@@ -1,0 +1,27 @@
+{
+	"id": "6aa6a149-9f70-ed11-9f60-000d3a6554d3",
+	"createdAt": "2022-11-30T11:08:16.576Z",
+	"createdBy": "daniel.vieira@neptune-software.com",
+	"globalScripts": [],
+	"externalModules": [
+		{
+			"id": "5D3D5779-6CFE-EB11-B563-A085FCBC58A1",
+			"name": "oracledb",
+			"contextname": "oracledb",
+			"path": "/home/planet9/ext-disk/npm-serverscript/node_modules/oracledb"
+		}
+	],
+	"entitySets": [],
+	"apis": [],
+	"name": "ztest",
+	"ver": "22.11.30.118",
+	"description": null,
+	"content": "",
+	"useAsGlobalScript": false,
+	"transpiledContent": null,
+	"lastRunSuccessful": false,
+	"isTypescript": false,
+	"language": "javascript",
+	"jsscriptGroup": "c445ddd9-4b19-ed11-bd6e-a085fcbc6cdc",
+	"package": "ab85fe53-4b19-ed11-bd6e-a085fcbc6cdc"
+}

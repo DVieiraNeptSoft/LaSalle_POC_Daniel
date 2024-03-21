@@ -1,0 +1,15 @@
+var binding = oTableUnidadAcademica.getBinding("items");
+var filter = new sap.ui.model.Filter({
+    filters: [
+        new sap.ui.model.Filter("CODIGO_UNIDAD_0", "Contains", this.getValue()),
+        new sap.ui.model.Filter("NOMBRE_UNIDAD_0", "Contains", this.getValue()),
+        new sap.ui.model.Filter("CODIGO_UNIDAD", "Contains", this.getValue()),
+        new sap.ui.model.Filter("NOMBRE_UNIDAD", "Contains", this.getValue()),
+        new sap.ui.model.Filter("CODIGO_FACULTAD", "Contains", this.getValue()),
+        new sap.ui.model.Filter("NOMBRE_FACULTAD", "Contains", this.getValue()),
+        new sap.ui.model.Filter("CODIGO_AGRUPACION", "Contains", this.getValue()),
+        new sap.ui.model.Filter("NOMBRE_AGRUPACION", "Contains", this.getValue())
+    ],
+    and: false
+})
+binding.filter([filter]);
